@@ -55,7 +55,16 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - MVC Proje Şablonu
    - Endpoint Yapısını Anlamak
    - HTML Rendering Konusu Anlamak
-3. ASP.NET Core MVC (dotnet mvc)
+3. MVC'ye Genel Bakış
+   - Proje Oluşturma ve Model Tanımını Gerçekleştirme
+   - Controller ve View Öğelerinin Oluşturulması 
+   - Tag Helper Kullanımı
+   - Form Yönetimi
+   - Form Post İşlemi
+   - Model Binding
+   - Dahili Repository Kullanımı
+   - Model Validation
+   - Layout
 4. Razor Pages (dotnet webapp)
 5. Data-Driven Development (dotnet web)
 6. Test-Driven Development
