@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Basics
 build_property.RootNamespace = Basics
-build_property.ProjectDir = E:\MVC\Basics\
+build_property.ProjectDir = e:\MVC\Basics\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\MVC\Basics
+build_property.MSBuildProjectDirectory = e:\MVC\Basics
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/MVC/Basics/Views/Employee/Index1.cshtml]
+[e:/MVC/Basics/Views/Employee/Index1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXgxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Basics/Views/Employee/Index2.cshtml]
+[e:/MVC/Basics/Views/Employee/Index2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXgyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Basics/Views/Employee/Index3.cshtml]
+[e:/MVC/Basics/Views/Employee/Index3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXgzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Basics/Views/Home/Index.cshtml]
+[e:/MVC/Basics/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Basics/Views/Home/Privacy.cshtml]
+[e:/MVC/Basics/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Basics/Views/Shared/Error.cshtml]
+[e:/MVC/Basics/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Basics/Views/Shared/_ValidationScriptsPartial.cshtml]
+[e:/MVC/Basics/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Basics/Views/_ViewImports.cshtml]
+[e:/MVC/Basics/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Basics/Views/_ViewStart.cshtml]
+[e:/MVC/Basics/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Basics/Views/Shared/_Layout.cshtml]
+[e:/MVC/Basics/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-o853urf686
