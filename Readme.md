@@ -51,6 +51,10 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - HTTP Protokolü
    - Modern .NET Stack
    - dotnet komut Seti
+   - Visual Studio Çalışma Ortamının Düzenlenmesi
+   - MVC Proje Şablonu
+   - Endpoint Yapısını Anlamak
+   - HTML Rendering Konusu Anlamak
 3. ASP.NET Core MVC (dotnet mvc)
 4. Razor Pages (dotnet webapp)
 5. Data-Driven Development (dotnet web)
