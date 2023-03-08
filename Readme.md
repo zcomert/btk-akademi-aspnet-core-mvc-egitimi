@@ -46,6 +46,7 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - Genel Bakış
    - Projelerin Önizlemesi
    - Eğitim İçeriği
+
 2. Temeller
    - Giriş
    - HTTP Protokolü
@@ -56,6 +57,7 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - Endpoint Yapısını Anlamak
    - HTML Rendering Konusu Anlamak
    - Özet
+
 3. MVC'ye Genel Bakış
    - Giriş
    - Proje Oluşturma ve Model Tanımı
