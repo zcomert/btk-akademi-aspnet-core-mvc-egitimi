@@ -46,6 +46,7 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - Genel Bakış
    - Projelerin Önizlemesi
    - Eğitim İçeriği
+
 2. Temeller
    - Giriş
    - HTTP Protokolü
@@ -56,6 +57,7 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - Endpoint Yapısını Anlamak
    - HTML Rendering Konusu Anlamak
    - Özet
+
 3. MVC'ye Genel Bakış
    - Giriş
    - Proje Oluşturma ve Model Tanımı
@@ -66,9 +68,17 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - Receiving Data
    - Model Validation
    - Özet
-4. Razor Pages (dotnet webapp)
-5. Data-Driven Development (dotnet web)
-6. Test-Driven Development
+   
+4. Data-Driven Development 
+   - ASP.NET Core Empty Project Template
+   - Implementation of MVC Pattern
+   - SQLite Database Engine
+   - NuGet Package Manager
+   - Working with Data
+   - Inversion of Control
+   - Dependency Injection
+   - Özet
+
 
 ## Eğitime Kimler Katılması
 
