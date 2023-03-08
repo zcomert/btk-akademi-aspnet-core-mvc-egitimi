@@ -13,9 +13,10 @@ namespace StoreApp.Controllers
             _context = context;
         }
 
-        public IEnumerable<Product> Index()
+        public IActionResult Index()
         {
-            return _context.Products;
+            var model =  _context.Products.ToList();
+            return View(model);
         }
     }
 }
