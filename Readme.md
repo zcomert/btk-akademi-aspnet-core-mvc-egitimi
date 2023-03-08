@@ -66,8 +66,17 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - Receiving Data
    - Model Validation
    - Özet
-4. Razor Pages (dotnet webapp)
-5. Data-Driven Development (dotnet web)
+5. Data-Driven Development 
+   - Giriş
+   - Projenin Oluşturulması
+   - MVC Şablonunun Uygulanması
+   - SQLite Kurulumu
+   - Paket Yönetimi ve Repository Tanımı
+   - Bağlantı Dizesi
+   - Migrations
+   - Dependency Injection
+   - Inversion of Control
+   - Özet
 6. Test-Driven Development
 
 ## Eğitime Kimler Katılması
