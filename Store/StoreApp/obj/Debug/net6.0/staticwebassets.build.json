@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "sME381v9fwVDpVeSwE5EBZBAHFY9HxjxUlMd9E/7q7Q=",
+  "Hash": "WwVRhjpRzMTMFL2+3LXEo7vr7DPwEaxuCtSiVltRBU8=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "StoreApp\\wwwroot",
+      "Source": "StoreApp",
+      "ContentRoot": "E:\\MVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\MVC\\Store\\StoreApp\\wwwroot\\html\\Error.html",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "html/Error.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\Error.html"
+    }
+  ]
 }

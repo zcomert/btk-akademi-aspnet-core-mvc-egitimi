@@ -53,3 +53,4 @@ E:\MVC\Store\StoreApp\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
 E:\MVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.csproj.CopyComplete
 E:\MVC\Store\StoreApp\bin\Debug\net6.0\Humanizer.dll
 E:\MVC\Store\StoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\MVC\Store\StoreApp\bin\Debug\net6.0\StoreApp.staticwebassets.runtime.json
