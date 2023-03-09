@@ -82,7 +82,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\MVC\\Store\\Entities\\Entities.csproj": {
+                "projectPath": "E:\\MVC\\Store\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
