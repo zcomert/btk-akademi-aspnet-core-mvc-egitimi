@@ -1,9 +1,12 @@
-@{
-    Layout = "_Layout";
-}
-@model List<StoreApp.Models.Product>
+@model List<Product>
 
-@foreach (StoreApp.Models.Product prd in Model)
+@section Footer{
+    <div>
+        Only for Index footer
+    </div>
+}
+
+@foreach (Product prd in Model)
 {
     <div>
         <h3>@prd.ProductName</h3>

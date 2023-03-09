@@ -1,8 +1,11 @@
-@{
-    Layout = "_Layout";
-}
-@model StoreApp.Models.Product
+@model Product
 
 <h3>@Model.ProductName</h3>
 <p>@Model.Price</p>
 <a href="/Product">Products</a>
+
+@section Header{
+    <div>
+        Header for only Get
+    </div>
+}
