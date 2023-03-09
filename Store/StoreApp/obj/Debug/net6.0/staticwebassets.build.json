@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g4ISPthKmtLWejcc0niSvMI1q9XWGxGYIXzTMdhCNkg=",
+  "Hash": "dO+tkPe/K2W6306rxgoQpryiwDgLSp/himToW2MBeeg=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\Error.html"
+    },
+    {
+      "Identity": "E:\\MVC\\Store\\StoreApp\\wwwroot\\images\\default.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/default.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\default.jpg"
     },
     {
       "Identity": "E:\\MVC\\Store\\StoreApp\\wwwroot\\js\\site.js",
