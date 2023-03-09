@@ -79,7 +79,7 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - Dependency Injection
    - Inversion of Control
    - Özet
-6. Layout
+5. Layout
    - Giriş
    - Layout
    - Partial View
