@@ -88,6 +88,13 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - Grids
    - Özet
 
+6. Repository Pattern
+   - Entites Project
+   - Repositories Project
+   - IRepositoryBase & RepositoryBase
+   - IProductRepository & ProductRepository
+   - IRepositoryManager & RepositoryManager
+
 ## Eğitime Kimler Katılması
 
 - Yazılım Mühendisliği, Bilgisayar Mühendisliği ya da ilişkili bölümlerde okuyan öğrenciler
