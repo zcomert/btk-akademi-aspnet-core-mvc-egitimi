@@ -80,6 +80,13 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - Inversion of Control
    - Özet
 6. Layout
+   - Giriş
+   - Layout
+   - Partial View
+   - libman
+   - Bootstrap
+   - Grids
+   - Özet
 
 ## Eğitime Kimler Katılması
 
