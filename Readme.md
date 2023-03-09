@@ -79,7 +79,14 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - Dependency Injection
    - Inversion of Control
    - Özet
-6. Test-Driven Development
+6. Layout
+   - Giriş
+   - Layout
+   - Partial View
+   - libman
+   - Bootstrap
+   - Grids
+   - Özet
 
 ## Eğitime Kimler Katılması
 
@@ -105,3 +112,6 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
 6. [Microsoft Training Paths](https://learn.microsoft.com/en-us/training/browse/)
 7. [ASP.NET Core MVC'ye Genel Bakış](https://learn.microsoft.com/tr-tr/aspnet/core/mvc/overview?view=aspnetcore-7.0)
 8. [ASP.NET Core MVC'ye Genel Bakış](https://learn.microsoft.com/en-us/training/dotnet/?WT.mc_id=friends-0000-jamont)
+9. [Libman](https://learn.microsoft.com/tr-tr/aspnet/core/client-side/libman/libman-cli?view=aspnetcore-7.0)
+10. [Bootstrap](https://getbootstrap.com/)
+11. [Font Awesome](https://fontawesome.com/)
