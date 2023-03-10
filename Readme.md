@@ -94,6 +94,7 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - IRepositoryBase & RepositoryBase
    - IProductRepository & ProductRepository
    - IRepositoryManager & RepositoryManager
+   - Category varlığının tanımlanması
 
 ## Eğitime Kimler Katılması
 
