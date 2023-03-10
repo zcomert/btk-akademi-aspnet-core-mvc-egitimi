@@ -68,6 +68,7 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - Receiving Data
    - Model Validation
    - Özet
+   
 5. Data-Driven Development 
    - Giriş
    - Projenin Oluşturulması
@@ -79,6 +80,7 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - Dependency Injection
    - Inversion of Control
    - Özet
+
 5. Layout
    - Giriş
    - Layout
@@ -89,12 +91,23 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - Özet
 
 6. Repository Pattern
+   - Giriş
    - Entites Project
    - Repositories Project
    - IRepositoryBase & RepositoryBase
    - IProductRepository & ProductRepository
    - IRepositoryManager & RepositoryManager
    - Category varlığının tanımlanması
+
+7. Services
+   - Giriş
+   - Services Project
+   - IProductService & ProductManager
+   - ICategory Service & CategoryManager
+   - IServiceManager & ServiceManager
+   - Configuration
+   - Özet 
+
 
 ## Eğitime Kimler Katılması
 
