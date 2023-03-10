@@ -1,0 +1,15 @@
+E:\MVC\Store\Repositories\bin\Debug\net6.0\Repositories.deps.json
+E:\MVC\Store\Repositories\bin\Debug\net6.0\Repositories.dll
+E:\MVC\Store\Repositories\bin\Debug\net6.0\Repositories.pdb
+E:\MVC\Store\Repositories\obj\Debug\net6.0\Repositories.csproj.AssemblyReference.cache
+E:\MVC\Store\Repositories\obj\Debug\net6.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\MVC\Store\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfoInputs.cache
+E:\MVC\Store\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfo.cs
+E:\MVC\Store\Repositories\obj\Debug\net6.0\Repositories.csproj.CoreCompileInputs.cache
+E:\MVC\Store\Repositories\obj\Debug\net6.0\Repositories.dll
+E:\MVC\Store\Repositories\obj\Debug\net6.0\refint\Repositories.dll
+E:\MVC\Store\Repositories\obj\Debug\net6.0\Repositories.pdb
+E:\MVC\Store\Repositories\obj\Debug\net6.0\ref\Repositories.dll
+E:\MVC\Store\Repositories\bin\Debug\net6.0\Entities.dll
+E:\MVC\Store\Repositories\bin\Debug\net6.0\Entities.pdb
+E:\MVC\Store\Repositories\obj\Debug\net6.0\Repositories.csproj.CopyComplete
