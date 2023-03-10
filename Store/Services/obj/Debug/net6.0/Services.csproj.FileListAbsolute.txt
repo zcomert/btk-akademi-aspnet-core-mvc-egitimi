@@ -1,0 +1,17 @@
+E:\MVC\Store\Services\bin\Debug\net6.0\Services.deps.json
+E:\MVC\Store\Services\bin\Debug\net6.0\Services.dll
+E:\MVC\Store\Services\bin\Debug\net6.0\Services.pdb
+E:\MVC\Store\Services\bin\Debug\net6.0\Entities.dll
+E:\MVC\Store\Services\bin\Debug\net6.0\Repositories.dll
+E:\MVC\Store\Services\bin\Debug\net6.0\Entities.pdb
+E:\MVC\Store\Services\bin\Debug\net6.0\Repositories.pdb
+E:\MVC\Store\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+E:\MVC\Store\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\MVC\Store\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+E:\MVC\Store\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+E:\MVC\Store\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
+E:\MVC\Store\Services\obj\Debug\net6.0\Services.csproj.CopyComplete
+E:\MVC\Store\Services\obj\Debug\net6.0\Services.dll
+E:\MVC\Store\Services\obj\Debug\net6.0\refint\Services.dll
+E:\MVC\Store\Services\obj\Debug\net6.0\Services.pdb
+E:\MVC\Store\Services\obj\Debug\net6.0\ref\Services.dll
