@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StoreApp
 build_property.RootNamespace = StoreApp
-build_property.ProjectDir = e:\MVC\Store\StoreApp\
+build_property.ProjectDir = E:\MVC\Store\StoreApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = e:\MVC\Store\StoreApp
+build_property.MSBuildProjectDirectory = E:\MVC\Store\StoreApp
 build_property._RazorSourceGeneratorDebug = 
 
-[e:/MVC/Store/StoreApp/Views/Category/Index.cshtml]
+[E:/MVC/Store/StoreApp/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/MVC/Store/StoreApp/Views/Home/Index.cshtml]
+[E:/MVC/Store/StoreApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/MVC/Store/StoreApp/Views/Product/Get.cshtml]
+[E:/MVC/Store/StoreApp/Views/Product/Get.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/MVC/Store/StoreApp/Views/Product/Index.cshtml]
+[E:/MVC/Store/StoreApp/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/MVC/Store/StoreApp/Views/Product/_ProductCard.cshtml]
+[E:/MVC/Store/StoreApp/Views/Product/_ProductCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfUHJvZHVjdENhcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/MVC/Store/StoreApp/Views/Shared/_Layout.cshtml]
+[E:/MVC/Store/StoreApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/MVC/Store/StoreApp/Views/Shared/_Navbar.cshtml]
+[E:/MVC/Store/StoreApp/Views/Shared/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/MVC/Store/StoreApp/Views/_ViewImports.cshtml]
+[E:/MVC/Store/StoreApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/MVC/Store/StoreApp/Views/_ViewStart.cshtml]
+[E:/MVC/Store/StoreApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
