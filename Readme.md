@@ -108,6 +108,12 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - Configuration
    - Özet 
 
+8. ViewComponent
+   - Giriş
+   - ViewComponent
+   - ProductSummaryViewComponent
+   - CategoriesMenuViewComponent
+   - Özet
 
 ## Eğitime Kimler Katılması
 
