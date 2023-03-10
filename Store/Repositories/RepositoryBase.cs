@@ -1,3 +1,4 @@
+using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using Repositories.Contracts;
 
@@ -18,6 +19,13 @@ namespace Repositories
             return trackChanges
                 ? _context.Set<T>()
                 : _context.Set<T>().AsNoTracking();
+        }
+
+        public T? FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges)
+        {
+            return trackChanges
+                ? _context.Set<T>().Where(expression).SingleOrDefault()
+                : _context.Set<T>().Where(expression).AsNoTracking().SingleOrDefault();
         }
     }
 }
