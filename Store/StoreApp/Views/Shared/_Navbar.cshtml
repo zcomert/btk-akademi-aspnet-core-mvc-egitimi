@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" asp-controller="Home" asp-action="Index">Home</a>
-        <a class="nav-link active" aria-current="page" asp-controller="Product" asp-action="Index">Products</a>
+        <a class="nav-link active" aria-current="page" asp-controller="Product" asp-action="Index">Products (@await Component.InvokeAsync("ProductSummary"))</a>
         <a class="nav-link active" aria-current="page" asp-controller="Category" asp-action="Index">Categories</a>
       </div>
     </div>
