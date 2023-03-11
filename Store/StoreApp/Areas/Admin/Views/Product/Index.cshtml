@@ -25,7 +25,11 @@
                     <td>@prd.ProductId</td>
                     <td>@prd.ProductName</td>
                     <td>@prd.Price</td>
-                    <td>.</td>
+                    <td>
+                        <div class="btn-group">
+                            <a class="btn btn-warning" asp-action="Update" asp-route-id="@prd.ProductId">Edit</a>
+                        </div>
+                    </td>
                 </tr>
             }
         </tbody>
