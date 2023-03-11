@@ -115,8 +115,6 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - CategoriesMenuViewComponent
    - Özet
 
-9. 
-
 ## Eğitime Kimler Katılması
 
 - Yazılım Mühendisliği, Bilgisayar Mühendisliği ya da ilişkili bölümlerde okuyan öğrenciler
