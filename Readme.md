@@ -115,6 +115,19 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - CategoriesMenuViewComponent
    - Özet
 
+9. Areas
+   - Giriş
+   - Admin Area ve Yapılandırılması
+   - Admin Panelin Düzenlenmesi
+   - Navbar 
+   - ProductController in Admin Area
+      - Create
+      - Retrieve
+      - Update
+      - Delete
+   - Özet
+
+
 ## Eğitime Kimler Katılmalı
 
 - Yazılım Mühendisliği, Bilgisayar Mühendisliği ya da ilişkili bölümlerde okuyan öğrenciler
