@@ -14903,6 +14903,23 @@
         }
       },
       {
+        "HashCode": 1519668054,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CategoriesMenuViewComponentTagHelper",
+        "AssemblyName": "StoreApp",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:categories-menu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CategoriesMenuViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CategoriesMenu"
+        }
+      },
+      {
         "HashCode": 724933068,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -18413,6 +18430,11 @@
     {
       "FilePath": "e:\\MVC\\Store\\StoreApp\\Views\\Category\\Index.cshtml",
       "TargetPath": "Views\\Category\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\MVC\\Store\\StoreApp\\Views\\Shared\\Components\\CategoriesMenu\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\CategoriesMenu\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
