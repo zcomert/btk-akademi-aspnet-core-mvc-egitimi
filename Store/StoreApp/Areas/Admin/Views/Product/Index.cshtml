@@ -2,7 +2,7 @@
 <div class="text-center">
     <div class="display-6">Products</div>
 
-    <div class="d-flex justify-content-end my-3" >
+    <div class="d-flex justify-content-end my-3">
         <a class="btn btn-outline-success" asp-action="Create">
             <i class="fa fa-plus"></i>
             Create
@@ -24,10 +24,16 @@
                 <tr>
                     <td>@prd.ProductId</td>
                     <td>@prd.ProductName</td>
-                    <td>@prd.Price</td>
+                    <td>@prd.Price.ToString("c")</td>
                     <td>
                         <div class="btn-group">
-                            <a class="btn btn-warning" asp-action="Update" asp-route-id="@prd.ProductId">Edit</a>
+                            <a class="btn btn-warning" asp-action="Update" asp-route-id="@prd.ProductId">
+                                <i class="fa fa-edit"></i>
+                                Edit</a>
+                            <a class="btn btn-info" target="_blank" asp-area="" asp-controller="Product" asp-action="Get"
+                            asp-route-id="@prd.ProductId">
+                                <i class="fa fa-search"></i>
+                                Web</a>
                         </div>
                     </td>
                 </tr>
