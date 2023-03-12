@@ -129,14 +129,10 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
 
 10. AutoMapper
    - AutoMapper
-   - Record type
-   - Paket Kurulumu
-   - Mapping Profile
-   - Servis Kaydı
-   - ServiceManager Düzenlenmesi
-   - Sunum Katmanının Düzenlenmesi
-
-
+   - Product ve Category İlişkisinin Kurulması
+   - ProductDto tanımı
+   - AutoMapper 
+   - AutoMapper ile Product nesnesinin Güncellenmesi
 
 ## Eğitime Kimler Katılmalı
 
