@@ -1,3 +1,4 @@
+using Entities.Dtos;
 using Entities.Models;
 using Repositories.Contracts;
 using Services.Contracts;
@@ -13,8 +14,14 @@ namespace Services
             _manager = manager;
         }
 
-        public void CreateProduct(Product product)
+        public void CreateProduct(ProductDtoForInsertion productDto)
         {
+            Product product = new Product()
+            {
+                ProductName = productDto.ProductName,
+                Price = productDto.Price,
+                CategoryId = productDto.CategoryId
+            };
             _manager.Product.Create(product);
             _manager.Save();
         }

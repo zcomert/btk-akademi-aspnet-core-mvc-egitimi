@@ -61,3 +61,5 @@ E:\MVC\Store\StoreApp\bin\Debug\net6.0\Repositories.dll
 E:\MVC\Store\StoreApp\bin\Debug\net6.0\Repositories.pdb
 E:\MVC\Store\StoreApp\bin\Debug\net6.0\Services.dll
 E:\MVC\Store\StoreApp\bin\Debug\net6.0\Services.pdb
+E:\MVC\Store\StoreApp\bin\Debug\net6.0\AutoMapper.dll
+E:\MVC\Store\StoreApp\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
