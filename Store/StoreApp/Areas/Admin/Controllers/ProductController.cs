@@ -1,5 +1,6 @@
 using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Services.Contracts;
 
 namespace StoreApp.Areas.Admin.Controllers
@@ -22,7 +23,10 @@ namespace StoreApp.Areas.Admin.Controllers
 
         public IActionResult Create()
         {
-            ViewBag.Categories = _manager.CategoryService.GetAllCategories(false);
+            ViewBag.Categories = new SelectList(_manager.CategoryService.GetAllCategories(false),
+            "CategoryId",
+            "CategoryName", "1");
+
             return View();
         }
 
@@ -58,7 +62,7 @@ namespace StoreApp.Areas.Admin.Controllers
 
 
         [HttpGet]
-        public IActionResult Delete([FromRoute(Name ="id")] int id)
+        public IActionResult Delete([FromRoute(Name = "id")] int id)
         {
             _manager.ProductService.DeleteOneProduct(id);
             return RedirectToAction("Index");
