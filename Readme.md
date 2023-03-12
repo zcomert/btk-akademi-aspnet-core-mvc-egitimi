@@ -128,11 +128,13 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - Özet
 
 10. AutoMapper
+   - Giriş
    - AutoMapper
    - Product ve Category İlişkisinin Kurulması
    - ProductDto tanımı
    - AutoMapper 
    - AutoMapper ile Product nesnesinin Güncellenmesi
+   - Özet
 
 ## Eğitime Kimler Katılmalı
 
