@@ -22,6 +22,7 @@ namespace StoreApp.Areas.Admin.Controllers
 
         public IActionResult Create()
         {
+            ViewBag.Categories = _manager.CategoryService.GetAllCategories(false);
             return View();
         }
 
