@@ -55,11 +55,12 @@ namespace Services
             return productDto;
         }
 
-        public void UpdateOneProduct(Product product)
+        public void UpdateOneProduct(ProductDtoForUpdate productDto)
         {
-            var entity = _manager.Product.GetOneProduct(product.ProductId, true);
-            entity.ProductName = product.ProductName;
-            entity.Price = product.Price;
+            var entity = _manager.Product.GetOneProduct(productDto.ProductId, true);
+            entity.ProductName = productDto.ProductName;
+            entity.Price = productDto.Price;
+            entity.CategoryId = productDto.CategoryId;
             _manager.Save();
         }
     }
