@@ -1,4 +1,4 @@
-@model Product
+@model ProductDtoForUpdate
 
 <div class="text-center">
     <div class="display-6">Create</div>
@@ -9,6 +9,12 @@
     <div class="text-danger" asp-validation-summary="All"></div>
 
     <input type="hidden" asp-for="ProductId" />
+
+    <div class="form-group my-3">
+        <label asp-for="CategoryId"></label>
+        <select class="form-control" asp-items="@ViewBag.Categories" asp-for="CategoryId">
+        </select>
+    </div>
 
     <div class="form-group my-3">
         <label asp-for="ProductName"></label>
