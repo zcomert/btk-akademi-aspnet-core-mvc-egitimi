@@ -10,5 +10,6 @@ namespace Services.Contracts
         void CreateProduct(ProductDtoForInsertion productDto);
         void UpdateOneProduct(Product product);
         void DeleteOneProduct(int id);
+        ProductDtoForUpdate GetOneProductForUpdate(int id, bool trakcChanges);
     }
 }

@@ -45,7 +45,7 @@ namespace StoreApp.Areas.Admin.Controllers
 
         public IActionResult Update([FromRoute(Name = "id")] int id)
         {
-            var model = _manager.ProductService.GetOneProduct(id, false);
+            var model = _manager.ProductService.GetOneProductForUpdate(id, false);
             return View(model);
         }
 
