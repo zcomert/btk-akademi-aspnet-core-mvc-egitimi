@@ -137,11 +137,11 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
       - Özet
 
 11. Dosyalama İşlemleri 
-   - Giriş 
-   - IFormFile ve Form Düzenlemesi
-   - İmgeler ile Çalışma
-   - Sayfa Tasarımının Düzenlenmesi
-   - Özet
+      - Giriş 
+      - IFormFile ve Form Düzenlemesi
+      - İmgeler ile Çalışma
+      - Sayfa Tasarımının Düzenlenmesi
+      - Özet
 
 ## Eğitime Kimler Katılmalı
 
