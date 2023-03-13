@@ -136,6 +136,13 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
    - AutoMapper ile Product nesnesinin Güncellenmesi
    - Özet
 
+11. Dosyalama İşlemleri 
+   - Giriş 
+   - IFormFile ve Form Düzenlemesi
+   - İmgeler ile Çalışma
+   - Sayfa Tasarımının Düzenlenmesi
+   - Özet
+
 ## Eğitime Kimler Katılmalı
 
 - Yazılım Mühendisliği, Bilgisayar Mühendisliği ya da ilişkili bölümlerde okuyan öğrenciler
