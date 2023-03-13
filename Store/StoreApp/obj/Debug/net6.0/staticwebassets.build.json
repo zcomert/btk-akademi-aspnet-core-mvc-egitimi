@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a1Crh4DzAee8FQCv5yQ+C6/s2y+zCg7MemGx3ZdnfZE=",
+  "Hash": "aRmKw7xGEbO6+/iTBjHavlhtcJUlwdrdupcjP1aB684=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -289,6 +289,23 @@
       "OriginalItemSpec": "wwwroot\\images\\9.jpg"
     },
     {
+      "Identity": "E:\\MVC\\Store\\StoreApp\\wwwroot\\images\\beloved.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/beloved.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\beloved.jpg"
+    },
+    {
       "Identity": "E:\\MVC\\Store\\StoreApp\\wwwroot\\images\\default.jpg",
       "SourceId": "StoreApp",
       "SourceType": "Discovered",
@@ -304,6 +321,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\default.jpg"
+    },
+    {
+      "Identity": "E:\\MVC\\Store\\StoreApp\\wwwroot\\images\\laptop-lenovo.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/laptop-lenovo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\laptop-lenovo.jpg"
     },
     {
       "Identity": "E:\\MVC\\Store\\StoreApp\\wwwroot\\js\\site.js",

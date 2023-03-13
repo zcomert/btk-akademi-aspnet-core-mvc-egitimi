@@ -143,6 +143,15 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
       - Sayfa Tasarımının Düzenlenmesi
       - Özet
 
+12. Razor Pages
+      - Giriş
+      - MVVM Deseni
+      - Yapılandırma
+      - Page Model Anlama
+      - Layout Özellikleri
+      - @inject Direktifi
+
+
 ## Eğitime Kimler Katılmalı
 
 - Yazılım Mühendisliği, Bilgisayar Mühendisliği ya da ilişkili bölümlerde okuyan öğrenciler
