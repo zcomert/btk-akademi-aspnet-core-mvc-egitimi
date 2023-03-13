@@ -1,16 +1,28 @@
 <nav class="navbar bg-light border-bottom navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Store App</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" asp-controller="Home" asp-action="Index">Home</a>
-        <a class="nav-link active" aria-current="page" asp-controller="Product" asp-action="Index">Products (@await Component.InvokeAsync("ProductSummary"))</a>
-        <a class="nav-link active" aria-current="page" asp-controller="Category" asp-action="Index">Categories</a>
-        <a class="nav-link active" aria-current="page" asp-page="/Contact">Contact</a>
-      </div>
+    <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between" id="navbarNavAltMarkup">
+      <ul class="navbar-nav flex-grow-1">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" asp-controller="Home" asp-action="Index">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" asp-controller="Product" asp-action="Index">Products (@await Component.InvokeAsync("ProductSummary"))</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" asp-controller="Category" asp-action="Index">Categories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" asp-page="/Contact">Contact</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <a class="nav-link" aria-current="page" asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Admin</a>
+      </ul>
     </div>
   </div>
 </nav>
