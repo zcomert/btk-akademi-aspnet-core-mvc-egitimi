@@ -24,14 +24,21 @@
                     <td>@line.Product.Price.ToString("c")</td>
                     <td>@((line.Product.Price*line.Quantity).ToString("c2"))</td>
                     <td>
-                        
+                        <form method="post" asp-page-handler="Remove" >
+                            <input type="hidden" name="id" value="@line.Product.ProductId" />
+                            <input type="hidden" name="returnUrl" value="@Model.ReturnUrl" />
+                            <button type="submit" class="btn btn-sm btn-danger">
+                                <i class="fa fa-trash"></i>
+                                Remove
+                            </button>
+                        </form>
                     </td>
                 </tr>
             }
         </tbody>
         <tfoot>
             <tr>
-                <td colspan="3" class="text-right">Total : </td>
+                <td colspan="4" class="text-right">Total : </td>
                 <td class="text-right text-danger">
                     @Model.Cart?.ComputeTotalValue().ToString("C2")
                 </td>
