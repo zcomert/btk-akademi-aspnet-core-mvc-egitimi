@@ -38,7 +38,7 @@ namespace StoreApp.Pages
         public IActionResult OnPostRemove(int id, string returnUrl)
         {
             Cart.RemoveLine(Cart.Lines.First(cl => cl.Product.ProductId.Equals(id)).Product);
-            return Page();
+            return Page(); 
         }
     }
 }
