@@ -147,10 +147,10 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
       - Giriş
       - MVVM Deseni
       - Yapılandırma
-      - Page Model Anlama
+      - Page Model
+      - Cart Service Tanımı
       - Layout Özellikleri
-      - @inject Direktifi
-
+      - Özet
 
 ## Eğitime Kimler Katılmalı
 
