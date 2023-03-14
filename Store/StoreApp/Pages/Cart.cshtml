@@ -1,4 +1,41 @@
 @page "/cart"
 @model CartModel
 
-Cart
+<div>
+    <div class="text-center display-6">
+        Cart
+    </div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Subtotal</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var line in Model.Cart?.Lines ?? Enumerable.Empty<CartLine>())
+            {
+                <tr>
+                    <td>@line.Product.ProductName</td>
+                    <td>@line.Quantity</td>
+                    <td>@line.Product.Price.ToString("c")</td>
+                    <td>@((line.Product.Price*line.Quantity).ToString("c2"))</td>
+                    <td>
+                        
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-right">Total : </td>
+                <td class="text-right text-danger">
+                    @Model.Cart?.ComputeTotalValue().ToString("C2")
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
