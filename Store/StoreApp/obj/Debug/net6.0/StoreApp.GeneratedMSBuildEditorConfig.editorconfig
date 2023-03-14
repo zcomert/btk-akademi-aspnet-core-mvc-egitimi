@@ -60,8 +60,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/MVC/Store/StoreApp/Pages/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/MVC/Store/StoreApp/Pages/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MVC/Store/StoreApp/Pages/Demo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVtby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/MVC/Store/StoreApp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/MVC/Store/StoreApp/Pages/_ViewStart.cshtml]
