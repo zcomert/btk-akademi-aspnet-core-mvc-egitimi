@@ -26,7 +26,6 @@ namespace Repositories
             if(order is null)
                 throw new Exception("Order could not found!");
             order.Shipped = true;
-            _context.SaveChanges();
         }
 
         public Order? GetOneOrder(int id)
