@@ -1,6 +1,6 @@
 @model Order
 
-<form>
+<form method="post" asp-action="Checkout" >
     <div class="form-group my-3">
         <label asp-for="Name" ></label>
         <input class="form-control" asp-for="Name" >
@@ -28,5 +28,16 @@
     <div class="form-group my-3">
         <label asp-for="City" ></label>
         <input class="form-control" asp-for="City" >
+    </div>
+
+    <div class="form-group my-3">
+        <input asp-for="GiftWrap" >
+        <label>Gift wrap these items.</label>
+    </div>
+
+    <div class="text-center">
+        <button type="submit" class="btn btn-primary">
+            Complete Order
+        </button>
     </div>
 </form>
