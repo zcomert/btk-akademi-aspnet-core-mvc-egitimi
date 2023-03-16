@@ -1,3 +1,4 @@
+using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
 using Services.Contracts;
 
@@ -11,5 +12,7 @@ namespace StoreApp.Controllers
         {
             _manager = manager;
         }
+
+        public ViewResult Checkout() => View(new Order());
     }
 }
