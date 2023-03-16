@@ -2,6 +2,7 @@ using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Services.Contracts;
+using StoreApp.Infrastructe.Extensions;
 
 namespace StoreApp.Pages
 {
@@ -12,16 +13,16 @@ namespace StoreApp.Pages
         public Cart Cart { get; set; } // IoC
         public string ReturnUrl { get; set; } = "/";
 
-        public CartModel(IServiceManager manager, Cart cart)
+        public CartModel(IServiceManager manager)
         {
             _manager = manager;
-            Cart = cart;
         }
 
 
         public void OnGet(string returnUrl)
         {
             ReturnUrl = returnUrl ?? "/";
+            Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
         }
 
         public IActionResult OnPost(int productId, string returnUrl)
