@@ -4,6 +4,7 @@
 }
 <div class="my-5 text-center">
     <div class="display-6">Hello @Model?.FullName </div>
+    <p class="text-danger">@HttpContext.Session.GetString("name")</p>
     <form method="post" asp-page="/demo" >
     <div class="form-group">
         <input class="form-control" name="name" placeholder="Enter your name" />

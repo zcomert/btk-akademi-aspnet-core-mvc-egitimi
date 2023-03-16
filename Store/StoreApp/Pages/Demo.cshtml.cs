@@ -5,12 +5,8 @@ namespace StoreApp.Pages
 {
     public class DemoModel : PageModel
     {
-        public String? FullName { get; set; }
+        public String? FullName => HttpContext?.Session?.GetString("name") ?? "";
 
-        public DemoModel()
-        {
-            FullName = HttpContext?.Session?.GetString("name");
-        }
         public void OnGet()
         {
             
