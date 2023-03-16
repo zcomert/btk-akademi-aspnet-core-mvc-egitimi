@@ -31,7 +31,7 @@ namespace Repositories
 
         public Order? GetOneOrder(int id)
         {
-            throw new NotImplementedException();
+            return FindByCondition(o => o.OrderId.Equals(id),false);
         }
 
         public void SaveOrder(Order order)
