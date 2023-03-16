@@ -2,3 +2,11 @@
 @model StoreApp.Pages.DemoModel
 @{
 }
+<div class="my-5 text-center">
+    <form method="post" asp-page="/demo" >
+    <div class="form-group">
+        <input class="form-control" name="name" placeholder="Enter your name" />
+        <input type="submit" class="btn btn-primary my-3" />
+    </div>
+    </form>
+</div>

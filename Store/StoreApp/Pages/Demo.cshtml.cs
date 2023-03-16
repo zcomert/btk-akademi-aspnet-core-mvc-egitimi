@@ -7,6 +7,7 @@ namespace StoreApp.Pages
     {
         public void OnGet()
         {
+            
         }
     }
 }
