@@ -1,5 +1,7 @@
 @model Order
 
+<div class="text-danger" asp-validation-summary="All"></div>
+
 <form method="post" asp-action="Checkout" >
     <div class="form-group my-3">
         <label asp-for="Name" ></label>
