@@ -53,6 +53,7 @@ namespace StoreApp.Infrastructe.Extensions
             services.AddRouting(options =>
             {
                 options.LowercaseUrls = true;
+                options.AppendTrailingSlash = false;
             });
         }
     }
