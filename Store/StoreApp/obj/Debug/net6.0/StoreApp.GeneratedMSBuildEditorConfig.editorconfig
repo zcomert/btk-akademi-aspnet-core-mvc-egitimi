@@ -9,129 +9,129 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StoreApp
 build_property.RootNamespace = StoreApp
-build_property.ProjectDir = E:\MVC\Store\StoreApp\
+build_property.ProjectDir = e:\MVC\Store\StoreApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\MVC\Store\StoreApp
+build_property.MSBuildProjectDirectory = e:\MVC\Store\StoreApp
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/MVC/Store/StoreApp/Areas/Admin/Views/Category/Index.cshtml]
+[e:/MVC/Store/StoreApp/Areas/Admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Areas/Admin/Views/Dashboard/Index.cshtml]
+[e:/MVC/Store/StoreApp/Areas/Admin/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Areas/Admin/Views/Order/Index.cshtml]
+[e:/MVC/Store/StoreApp/Areas/Admin/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Areas/Admin/Views/Order/_OrderDetails.cshtml]
+[e:/MVC/Store/StoreApp/Areas/Admin/Views/Order/_OrderDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcX09yZGVyRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Areas/Admin/Views/Product/Create.cshtml]
+[e:/MVC/Store/StoreApp/Areas/Admin/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Areas/Admin/Views/Product/Index.cshtml]
+[e:/MVC/Store/StoreApp/Areas/Admin/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Areas/Admin/Views/Product/Update.cshtml]
+[e:/MVC/Store/StoreApp/Areas/Admin/Views/Product/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
+[e:/MVC/Store/StoreApp/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Areas/Admin/Views/Shared/_Layout.cshtml]
+[e:/MVC/Store/StoreApp/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Areas/Admin/Views/Shared/_Navbar.cshtml]
+[e:/MVC/Store/StoreApp/Areas/Admin/Views/Shared/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Areas/Admin/Views/Shared/_ViewStart.cshtml]
+[e:/MVC/Store/StoreApp/Areas/Admin/Views/Shared/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Areas/Admin/Views/_ViewImports.cshtml]
+[e:/MVC/Store/StoreApp/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Areas/Admin/Views/_ViewStart.cshtml]
+[e:/MVC/Store/StoreApp/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Pages/Cart.cshtml]
+[e:/MVC/Store/StoreApp/Pages/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Pages/Complete.cshtml]
+[e:/MVC/Store/StoreApp/Pages/Complete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Pages/Contact.cshtml]
+[e:/MVC/Store/StoreApp/Pages/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Pages/Demo.cshtml]
+[e:/MVC/Store/StoreApp/Pages/Demo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVtby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Pages/_ViewImports.cshtml]
+[e:/MVC/Store/StoreApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Pages/_ViewStart.cshtml]
+[e:/MVC/Store/StoreApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Views/Category/Index.cshtml]
+[e:/MVC/Store/StoreApp/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Views/Home/Index.cshtml]
+[e:/MVC/Store/StoreApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Views/Order/Checkout.cshtml]
+[e:/MVC/Store/StoreApp/Views/Order/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Views/Product/Get.cshtml]
+[e:/MVC/Store/StoreApp/Views/Product/Get.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Views/Product/Index.cshtml]
+[e:/MVC/Store/StoreApp/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Views/Product/_ProductCard.cshtml]
+[e:/MVC/Store/StoreApp/Views/Product/_ProductCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfUHJvZHVjdENhcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Views/Shared/Components/CategoriesMenu/Default.cshtml]
+[e:/MVC/Store/StoreApp/Views/Shared/Components/CategoriesMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcmllc01lbnVcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Views/Shared/_Layout.cshtml]
+[e:/MVC/Store/StoreApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Views/Shared/_Navbar.cshtml]
+[e:/MVC/Store/StoreApp/Views/Shared/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Views/_ViewImports.cshtml]
+[e:/MVC/Store/StoreApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/MVC/Store/StoreApp/Views/_ViewStart.cshtml]
+[e:/MVC/Store/StoreApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
