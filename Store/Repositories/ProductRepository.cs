@@ -1,4 +1,5 @@
 using Entities.Models;
+using Entities.RequestParameters;
 using Repositories.Contracts;
 
 namespace Repositories
@@ -15,6 +16,11 @@ namespace Repositories
         public void DeleteOneProduct(Product product) => Remove(product);
 
         public IQueryable<Product> GetAllProducts(bool trackChanges) => FindAll(trackChanges);
+
+        public IQueryable<Product> GetAllProductsWithDetails(ProductRequestParameters p)
+        {
+            throw new NotImplementedException();
+        }
 
         // Interface
         public Product? GetOneProduct(int id, bool trackChanges)
