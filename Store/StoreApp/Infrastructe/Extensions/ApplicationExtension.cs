@@ -24,11 +24,9 @@ namespace StoreApp.Infrastructe.Extensions
             app.UseRequestLocalization(options =>
             {
                 options.AddSupportedCultures("tr-TR")
-                .AddSupportedUICultures("tr-TR")
-                .SetDefaultCulture("tr-TR");
+                    .AddSupportedUICultures("tr-TR")
+                    .SetDefaultCulture("tr-TR");
             });
         }
-
-        
     }
 }
