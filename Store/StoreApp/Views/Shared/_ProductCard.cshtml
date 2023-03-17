@@ -1,0 +1,38 @@
+@model Product
+
+<div class="col-sm-12 col-md-4 my-2">
+    <div class="card" style="width: 18rem;">
+        <div class="card-header text-center">
+            @Model.ProductName
+        </div>
+
+        <img src="@Model?.ImageUrl" class="card-img-top" alt="...">
+
+        <div class="card-body">
+            <div class="card-text">
+                <div class="text-danger text-center lead p-2 rounded-2">
+                    @Model?.Price.ToString("C2")
+                </div>
+            </div>
+            
+            <p class="card-text">@Model?.Summary</p>
+            <div class="d-flex justify-content-center">
+                <div class="btn btn-group">
+                    <a asp-controller="Product" asp-action="Get" asp-route-id="@Model.ProductId"
+                        class="btn btn-outline-secondary rounded-2">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <form id="@Model.ProductId" asp-page="/cart" method="post">
+                        <input type="hidden" asp-for="ProductId" />
+                        <input type="hidden" name="returnUrl" value="@ViewContext.HttpContext.Request.PathAndQuery()" />
+                        <button type="submit" class="btn btn-outline-secondary mx-1">
+                            <i class="fa fa-cart-plus"></i>
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

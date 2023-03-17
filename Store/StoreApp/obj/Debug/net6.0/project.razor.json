@@ -14937,6 +14937,23 @@
         }
       },
       {
+        "HashCode": 388472119,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ShowcaseViewComponentTagHelper",
+        "AssemblyName": "StoreApp",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:showcase"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ShowcaseViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Showcase"
+        }
+      },
+      {
         "HashCode": -949766804,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -18475,6 +18492,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\MVC\\Store\\StoreApp\\Views\\Shared\\Components\\Showcase\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Showcase\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\MVC\\Store\\StoreApp\\Views\\Shared\\_ProductCard.cshtml",
+      "TargetPath": "Views\\Shared\\_ProductCard.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\MVC\\Store\\StoreApp\\Pages\\Contact.cshtml",
       "TargetPath": "Pages\\Contact.cshtml",
       "FileKind": "mvc"
@@ -18502,11 +18529,6 @@
     {
       "FilePath": "e:\\MVC\\Store\\StoreApp\\Pages\\Complete.cshtml",
       "TargetPath": "Pages\\Complete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\MVC\\Store\\StoreApp\\Views\\Product\\_ProductCard.cshtml",
-      "TargetPath": "Views\\Product\\_ProductCard.cshtml",
       "FileKind": "mvc"
     },
     {
