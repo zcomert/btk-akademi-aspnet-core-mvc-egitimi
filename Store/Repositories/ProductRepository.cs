@@ -23,11 +23,11 @@ namespace Repositories
             return p is null 
                 ? _context
                     .Products
-                    .Include(p => p.Category)
+                    .Include(prd => prd.Category)
                 : _context
                     .Products
-                    .Include(p => p.Category)
-                    .Where(p => p.CategoryId.Equals(p.CategoryId));
+                    .Include(prd => prd.Category)
+                    .Where(prd => prd.CategoryId.Equals(p.CategoryId));
         }
 
         // Interface
