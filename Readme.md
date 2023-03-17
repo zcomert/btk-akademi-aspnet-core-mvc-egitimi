@@ -152,6 +152,18 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
       - Layout Özellikleri
       - Özet
 
+13. Session Management
+      - Giriş
+      - Session
+      - Session Extension
+      - Session Extension Kullanımı
+      - Session Cart
+      - CartSummary Widget
+      - HttpRequest Extension
+      - Orders
+      - Complete Orders
+      - Manager Orders
+
 ## Eğitime Kimler Katılmalı
 
 - Yazılım Mühendisliği, Bilgisayar Mühendisliği ya da ilişkili bölümlerde okuyan öğrenciler
