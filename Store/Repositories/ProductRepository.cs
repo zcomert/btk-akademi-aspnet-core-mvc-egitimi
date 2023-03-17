@@ -20,7 +20,7 @@ namespace Repositories
 
         public IQueryable<Product> GetAllProductsWithDetails(ProductRequestParameters p)
         {
-            return p is null 
+            return p.CategoryId is null 
                 ? _context
                     .Products
                     .Include(prd => prd.Category)
