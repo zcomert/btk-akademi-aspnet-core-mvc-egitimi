@@ -1,0 +1,32 @@
+@model Order
+
+<div class="row shadow my-3">
+    <div class="col-md-3 border-1 border-dark p-3 bg-light shadow">
+        <h5 class="display-5 text-center">
+            <i class="fa fa-address-book text-danger"></i>
+            <br />
+            @Model?.Name
+        </h5>
+        <p>@Model?.Line1</p>
+        <p>@Model?.Line2</p>
+        <p>@Model?.Line3</p>
+        <p>@Model?.City</p>
+        <p class="rounded-2 p-3">
+            <span class="bg-warning p-2">Shipped</span>
+            <span class="bg-info p-2">@(Model.Shipped ? "Completed" : "In Progress")</span>
+        </p>
+    </div>
+    <div class="col-md-9">
+        <h6 class="display-6 mt-3 text-center">
+            Cart
+        </h6>
+        <ul class="list-group">
+            @foreach (var cartItem in Model?.Lines)
+            {
+                <li class="list-group-item d-flex justify-content-between brand">
+                    <b>@cartItem.Product.ProductName</b>
+                </li>
+            }
+        </ul>
+    </div>
+</div>

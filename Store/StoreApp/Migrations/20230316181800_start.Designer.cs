@@ -11,7 +11,7 @@ using Repositories;
 namespace StoreApp.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20230316174149_start")]
+    [Migration("20230316181800_start")]
     partial class start
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
