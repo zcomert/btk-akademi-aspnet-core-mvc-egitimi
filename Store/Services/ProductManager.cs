@@ -48,7 +48,11 @@ namespace Services
 
         public IEnumerable<Product> GetLastestProducts(int n, bool trackChanges)
         {
-            throw new NotImplementedException();
+            return _manager
+                .Product
+                .FindAll(trackChanges)
+                .OrderByDescending(prd => prd.ProductId)
+                .Take(n);
         }
 
         public Product? GetOneProduct(int id, bool trackChanges)
