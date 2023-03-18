@@ -7,7 +7,7 @@ namespace StoreApp.Infrastructe.TagHelpers
     {
         public override void Process(TagHelperContext context, TagHelperOutput output)
         {
-            output.Attributes.SetAttribute("class","table");
+            output.Attributes.SetAttribute("class","table table-hover");
         }
     }
 }
