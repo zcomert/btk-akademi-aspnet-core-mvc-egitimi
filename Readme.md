@@ -165,6 +165,7 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
       - Manager Orders
 
 14. Extensions
+      - Giriş
       - Service Extension
       - Auto Migratie
       - Showcase
@@ -173,6 +174,7 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
       - FilteredByCategoryId Extension Method
       - FilteredBySearchTerm Extension Method
       - FilteredByPrice Extension Method
+      - Özet
    
 ## Eğitime Kimler Katılmalı
 
