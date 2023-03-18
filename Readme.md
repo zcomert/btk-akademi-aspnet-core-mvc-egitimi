@@ -24,11 +24,11 @@ Bu, web sayfalarının yol açtığı belirsiz mimarilere karşı etkili bir pan
 
 MVC temelde;
 
-· Endişelerin ayrılmasına yardımcı olur (**_seperation of concerns_**)
-· Sorumlulukların ayrılmasına yardımcı olur.
-· Kodun sürdürülebilir olmasını sağlar.
-· Hata ayıklamayı kolaylaştırır.
-· Test edilebilirliği arttırır.
+* Endişelerin ayrılmasına yardımcı olur (**_seperation of concerns_**)
+* Sorumlulukların ayrılmasına yardımcı olur.
+* Kodun sürdürülebilir olmasını sağlar.
+* Hata ayıklamayı kolaylaştırır.
+* Test edilebilirliği arttırır.
 
 # ASP.NET Core MVC Eğitimi
 
