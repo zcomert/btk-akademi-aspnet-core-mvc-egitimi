@@ -12669,14 +12669,19 @@
         }
       },
       {
-        "HashCode": 454944677,
+        "HashCode": 647161704,
         "Kind": "ITagHelper",
         "Name": "StoreApp.Infrastructe.TagHelpers.LastestProductTagHelper",
         "AssemblyName": "StoreApp",
         "CaseSensitive": false,
         "TagMatchingRules": [
           {
-            "TagName": "lastest-product"
+            "TagName": "div",
+            "Attributes": [
+              {
+                "Name": "products"
+              }
+            ]
           }
         ],
         "Metadata": {
