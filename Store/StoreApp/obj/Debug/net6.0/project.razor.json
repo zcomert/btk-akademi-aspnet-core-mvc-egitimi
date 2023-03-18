@@ -12651,6 +12651,24 @@
         }
       },
       {
+        "HashCode": 1820768189,
+        "Kind": "ITagHelper",
+        "Name": "StoreApp.Infrastructe.TagHelpers.TableTagHelper",
+        "AssemblyName": "StoreApp",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "table"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "StoreApp.Infrastructe.TagHelpers.TableTagHelper",
+          "Common.TypeNamespace": "StoreApp.Infrastructe.TagHelpers",
+          "Common.TypeNameIdentifier": "TableTagHelper"
+        }
+      },
+      {
         "HashCode": 2048375711,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
@@ -14920,23 +14938,6 @@
         }
       },
       {
-        "HashCode": -793054713,
-        "Kind": "MVC.ViewComponent",
-        "Name": "__Generated__ProductFilterMenuViewComponentTagHelper",
-        "AssemblyName": "StoreApp",
-        "CaseSensitive": false,
-        "TagMatchingRules": [
-          {
-            "TagName": "vc:product-filter-menu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "ITagHelper",
-          "Common.TypeName": "__Generated__ProductFilterMenuViewComponentTagHelper",
-          "MVC.ViewComponent.Name": "ProductFilterMenu"
-        }
-      },
-      {
         "HashCode": 745166430,
         "Kind": "MVC.ViewComponent",
         "Name": "__Generated__ProductSummaryViewComponentTagHelper",
@@ -14968,6 +14969,23 @@
           "Runtime.Name": "ITagHelper",
           "Common.TypeName": "__Generated__ShowcaseViewComponentTagHelper",
           "MVC.ViewComponent.Name": "Showcase"
+        }
+      },
+      {
+        "HashCode": -793054713,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ProductFilterMenuViewComponentTagHelper",
+        "AssemblyName": "StoreApp",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:product-filter-menu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ProductFilterMenuViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ProductFilterMenu"
         }
       },
       {
