@@ -28,7 +28,8 @@ namespace StoreApp.Infrastructe.TagHelpers
         {
             if(ViewContext is not null && PageModel is not null)
             {
-                
+                var urlHelper = _urlHelperFactory.GetUrlHelper(ViewContext);
+                TagBuilder result = new TagBuilder("div");
             }
         }
     }
