@@ -46,6 +46,11 @@ namespace Services
             return _manager.Product.GetAllProductsWithDetails(p);
         }
 
+        public IEnumerable<Product> GetLastestProducts(int n, bool trackChanges)
+        {
+            throw new NotImplementedException();
+        }
+
         public Product? GetOneProduct(int id, bool trackChanges)
         {
             var product = _manager.Product.GetOneProduct(id, trackChanges);
