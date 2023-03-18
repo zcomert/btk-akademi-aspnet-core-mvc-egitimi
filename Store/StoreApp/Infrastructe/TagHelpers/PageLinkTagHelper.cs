@@ -20,6 +20,8 @@ namespace StoreApp.Infrastructe.TagHelpers
         public Pagination PageModel { get; set; }
         public String? PageAction { get; set; }
 
+        
+
         public PageLinkTagHelper(IUrlHelperFactory urlHelperFactory)
         {
             _urlHelperFactory = urlHelperFactory;
