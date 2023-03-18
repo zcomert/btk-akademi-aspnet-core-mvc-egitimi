@@ -26,7 +26,10 @@ namespace StoreApp.Infrastructe.TagHelpers
 
         public override void Process(TagHelperContext context, TagHelperOutput output)
         {
-            
+            if(ViewContext is not null && PageModel is not null)
+            {
+                
+            }
         }
     }
 }
