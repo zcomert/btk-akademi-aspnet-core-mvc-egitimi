@@ -20,7 +20,10 @@ namespace StoreApp.Infrastructe.TagHelpers
         public Pagination PageModel { get; set; }
         public String? PageAction { get; set; }
 
-        
+        public bool PageClassesEnabled { get; set; } = false;
+        public string PageClass { get; set; } = String.Empty;
+        public string PageClassNormal { get; set; } = String.Empty;
+        public string PageClassSelected { get; set; } = String.Empty;
 
         public PageLinkTagHelper(IUrlHelperFactory urlHelperFactory)
         {
