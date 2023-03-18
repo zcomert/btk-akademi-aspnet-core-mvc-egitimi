@@ -12669,7 +12669,7 @@
         }
       },
       {
-        "HashCode": 647161704,
+        "HashCode": 1138739147,
         "Kind": "ITagHelper",
         "Name": "StoreApp.Infrastructe.TagHelpers.LastestProductTagHelper",
         "AssemblyName": "StoreApp",
@@ -12682,6 +12682,16 @@
                 "Name": "products"
               }
             ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "number",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Number"
+            }
           }
         ],
         "Metadata": {
