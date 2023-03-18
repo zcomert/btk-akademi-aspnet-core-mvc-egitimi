@@ -12669,6 +12669,24 @@
         }
       },
       {
+        "HashCode": 454944677,
+        "Kind": "ITagHelper",
+        "Name": "StoreApp.Infrastructe.TagHelpers.LastestProductTagHelper",
+        "AssemblyName": "StoreApp",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "lastest-product"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "StoreApp.Infrastructe.TagHelpers.LastestProductTagHelper",
+          "Common.TypeNamespace": "StoreApp.Infrastructe.TagHelpers",
+          "Common.TypeNameIdentifier": "LastestProductTagHelper"
+        }
+      },
+      {
         "HashCode": 2048375711,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
