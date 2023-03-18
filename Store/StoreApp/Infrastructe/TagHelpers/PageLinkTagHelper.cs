@@ -1,4 +1,5 @@
 
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
@@ -28,8 +29,16 @@ namespace StoreApp.Infrastructe.TagHelpers
         {
             if(ViewContext is not null && PageModel is not null)
             {
-                var urlHelper = _urlHelperFactory.GetUrlHelper(ViewContext);
+                IUrlHelper urlHelper = _urlHelperFactory.GetUrlHelper(ViewContext);
                 TagBuilder result = new TagBuilder("div");
+                for (int i = 1; i <= PageModel.TotalPages; i++)
+                {
+                    TagBuilder tag = new TagBuilder("a");
+                    tag.Attributes["href"] = urlHelper.Action(PageAction, new {PageNumber = i});
+                    tag.InnerHtml.Append(i.ToString());
+                    result.InnerHtml.AppendHtml(tag);
+                }
+                output.Content.AppendHtml(result.InnerHtml);
             }
         }
     }
