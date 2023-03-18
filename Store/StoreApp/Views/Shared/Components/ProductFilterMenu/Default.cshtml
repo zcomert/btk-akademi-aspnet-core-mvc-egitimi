@@ -8,8 +8,17 @@
 <div class="my-2">
     <form method="get" asp-action="Index" >
         <input type="hidden" name="categoryId" value="@(Context.Request.Query["categoryId"])" />
+        
         <div class="form-group my-2">
             <input class="form-control" name="SearchTerm" placeholder="Search" />
+        </div>
+
+        <div class="form-group my-2">
+            <input class="form-control" name="MinPrice" placeholder="Min. Price" />
+        </div>
+
+        <div class="form-group my-2">
+            <input class="form-control" name="MaxPrice" placeholder="Max. Price" />
         </div>
 
         <div class="form-group my-2">
