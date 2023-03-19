@@ -1,13 +1,18 @@
 @model LoginModel
 
 <div class="text-center my-5">
-    <h6 class="display-6">Login</h6>
+    
+    <h6 class="display-6">
+        <i class="fa-solid text-white fa-right-to-bracket bg-secondary p-3 rounded-5"></i>
+        <br />
+        Login
+    </h6>
 </div>
 
 <div class="row">
     <div class="col-md-3"></div>
     <div class="col-md-6">
-        <div class="text-center">
+        <div>
             <div class="text-danger" asp-validation-summary="All"></div>
         </div>
         <form method="post" asp-action="Login">
@@ -25,6 +30,7 @@
 
             <div class="form-group my-3 d-flex justify-content-center">
                 <button type="submit" class="btn btn-primary">
+                    <i class="fa-solid fa-right-to-bracket"></i>
                     Login
                 </button>
             </div>
