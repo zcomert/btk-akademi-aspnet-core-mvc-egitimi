@@ -1,21 +1,32 @@
 @model LoginModel
 
-<div class="text-center my-3">
+<div class="text-center my-5">
     <h6 class="display-6">Login</h6>
 </div>
 
 <div class="row">
     <div class="col-md-3"></div>
     <div class="col-md-6">
-        <form>
-            <div class="form-group">
+        <div class="text-center">
+            <div class="text-danger" asp-validation-summary="All"></div>
+        </div>
+        <form method="post" asp-action="Login">
+            <input type="hidden" asp-for="ReturnUrl" />
+
+            <div class="form-group my-3">
                 <label asp-for="Name"></label>
                 <input asp-for="Name" class="form-control" />
             </div>
 
-            <div class="form-group">
+            <div class="form-group my-3">
                 <label asp-for="Password"></label>
                 <input type="password" asp-for="Password" class="form-control" />
+            </div>
+
+            <div class="form-group my-3 d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary">
+                    Login
+                </button>
             </div>
         </form>
     </div>
