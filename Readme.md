@@ -175,6 +175,16 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
       - FilteredBySearchTerm Extension Method
       - FilteredByPrice Extension Method
       - Özet
+
+15. Tag Helpers
+      - Giriş
+      - TagHelper
+      - TagBuilder
+      - HtmlAttributeName
+      - ViewContext
+      - Pagination
+      - PageLinkTagHelper
+      - Özet
    
 ## Eğitime Kimler Katılmalı
 

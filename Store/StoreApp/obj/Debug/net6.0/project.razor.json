@@ -12702,7 +12702,7 @@
         }
       },
       {
-        "HashCode": 563661536,
+        "HashCode": -1560335873,
         "Kind": "ITagHelper",
         "Name": "StoreApp.Infrastructe.TagHelpers.PageLinkTagHelper",
         "AssemblyName": "StoreApp",
@@ -12748,6 +12748,22 @@
             "TypeName": "System.String",
             "Metadata": {
               "Common.PropertyName": "PageClass"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-class-normal",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PageClassNormal"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-class-selected",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PageClassSelected"
             }
           }
         ],

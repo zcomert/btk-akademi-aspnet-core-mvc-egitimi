@@ -40,6 +40,11 @@ namespace StoreApp.Infrastructe.TagHelpers
                 {
                     TagBuilder tag = new TagBuilder("a");
                     tag.Attributes["href"] = urlHelper.Action(PageAction, new {PageNumber = i});
+                    if(PageClassesEnabled)
+                    {
+                        tag.AddCssClass(PageClass);
+                        tag.AddCssClass(i == PageModel.CurrenPage ? PageClassSelected : PageClassNormal);
+                    }
                     tag.InnerHtml.Append(i.ToString());
                     result.InnerHtml.AppendHtml(tag);
                 }
