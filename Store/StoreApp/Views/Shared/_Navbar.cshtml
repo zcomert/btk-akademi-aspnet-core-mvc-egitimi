@@ -1,6 +1,7 @@
 <nav class="navbar bg-light border-bottom navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">Store App</a>
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <i class="fa-solid fa-store fa-2x text-secondary"></i></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -11,7 +12,8 @@
           <a class="nav-link active" aria-current="page" asp-controller="Home" asp-action="Index">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" asp-controller="Product" asp-action="Index">Products (@await Component.InvokeAsync("ProductSummary"))</a>
+          <a class="nav-link active" aria-current="page" asp-controller="Product" asp-action="Index">Products
+            (@await Component.InvokeAsync("ProductSummary"))</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" asp-controller="Category" asp-action="Index">Categories</a>
@@ -22,9 +24,9 @@
       </ul>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" asp-area="" asp-page="/Cart" >
-          <i class="fa-solid fa-cart-shopping"></i>
-          Cart (@await Component.InvokeAsync("CartSummary"))
+          <a class="nav-link" aria-current="page" asp-area="" asp-page="/Cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart (@await Component.InvokeAsync("CartSummary"))
           </a>
         </li>
         <li class="nav-item">
