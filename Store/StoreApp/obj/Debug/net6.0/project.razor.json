@@ -18583,6 +18583,11 @@
   "RootNamespace": "StoreApp",
   "Documents": [
     {
+      "FilePath": "e:\\MVC\\Store\\StoreApp\\Views\\Account\\Login.cshtml",
+      "TargetPath": "Views\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\MVC\\Store\\StoreApp\\Areas\\Admin\\Views\\Product\\Create.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Product\\Create.cshtml",
       "FileKind": "mvc"
