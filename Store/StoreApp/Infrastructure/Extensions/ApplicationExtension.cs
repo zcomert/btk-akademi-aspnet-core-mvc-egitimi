@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Repositories;
 
@@ -28,5 +29,6 @@ namespace StoreApp.Infrastructure.Extensions
                     .SetDefaultCulture("tr-TR");
             });
         }
+
     }
 }
