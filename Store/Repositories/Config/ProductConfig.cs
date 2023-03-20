@@ -27,7 +27,7 @@ namespace Repositories.Config
                 new Product() { ProductId = 11, CategoryId = 1, ImageUrl = "/images/11.jpg", ProductName = "War and Piece", Price = 385, ShowCase = true },
                 new Product() { ProductId = 12, CategoryId = 1, ImageUrl = "/images/12.jpg", ProductName = "The Sound of the Mountain", Price = 845, ShowCase = true },
                 new Product() { ProductId = 13, CategoryId = 1, ImageUrl = "/images/13.jpg", ProductName = "The Idiot", Price = 415, ShowCase = true },
-                new Product() { ProductId = 14, CategoryId = 1, ImageUrl = "/images/14.jpg", ProductName = "The Idiot", Price = 415, ShowCase = true },
+                new Product() { ProductId = 14, CategoryId = 1, ImageUrl = "/images/14.jpg", ProductName = "The Trial", Price = 325, ShowCase = true },
                 new Product() { ProductId = 15, CategoryId = 1, ImageUrl = "/images/15.jpg", ProductName = "Masnavi", Price = 99, ShowCase = true },
                 new Product() { ProductId = 16, CategoryId = 1, ImageUrl = "/images/16.jpg", ProductName = "The Magic Mountain", Price = 199, ShowCase = false }
             );

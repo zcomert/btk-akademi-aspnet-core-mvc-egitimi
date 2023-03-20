@@ -11,7 +11,7 @@ using Repositories;
 namespace StoreApp.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20230320063620_identity")]
+    [Migration("20230320064856_identity")]
     partial class identity
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -274,8 +274,8 @@ namespace StoreApp.Migrations
                             ProductId = 14,
                             CategoryId = 1,
                             ImageUrl = "/images/14.jpg",
-                            Price = 415m,
-                            ProductName = "The Idiot",
+                            Price = 325m,
+                            ProductName = "The Trial",
                             ShowCase = true,
                             Summary = ""
                         },
@@ -329,22 +329,22 @@ namespace StoreApp.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "24561808-ca49-4dd7-902d-14ab3f8c5356",
-                            ConcurrencyStamp = "257b7bd0-cdb3-4fc9-9f80-b2641c400ca3",
+                            Id = "5fef5cde-a221-45ad-9c67-a015597eba17",
+                            ConcurrencyStamp = "898b49b8-1a5f-45ca-b759-c648d379b264",
                             Name = "User",
                             NormalizedName = "USER"
                         },
                         new
                         {
-                            Id = "97d583c5-424b-4b58-b9e2-4cee96220c55",
-                            ConcurrencyStamp = "666408f5-e6c4-4e6a-872b-e70fcb209eee",
+                            Id = "f29e9071-3103-4e3e-8079-fbdec9e73360",
+                            ConcurrencyStamp = "b29c22c9-8fc7-47bd-9f4a-ec413f460bdf",
                             Name = "Editor",
                             NormalizedName = "EDITOR"
                         },
                         new
                         {
-                            Id = "005c7356-7e79-4133-afb1-325f337d371f",
-                            ConcurrencyStamp = "2909355f-7d0e-4514-b886-b347ce2152bf",
+                            Id = "1d27a658-074c-4316-a3fb-b5c8a756c4a0",
+                            ConcurrencyStamp = "006f1967-fdc5-40b4-a0bb-ed483252e26f",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });

@@ -239,17 +239,17 @@ namespace StoreApp.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { "005c7356-7e79-4133-afb1-325f337d371f", "2909355f-7d0e-4514-b886-b347ce2152bf", "Admin", "ADMIN" });
+                values: new object[] { "1d27a658-074c-4316-a3fb-b5c8a756c4a0", "006f1967-fdc5-40b4-a0bb-ed483252e26f", "Admin", "ADMIN" });
 
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { "24561808-ca49-4dd7-902d-14ab3f8c5356", "257b7bd0-cdb3-4fc9-9f80-b2641c400ca3", "User", "USER" });
+                values: new object[] { "5fef5cde-a221-45ad-9c67-a015597eba17", "898b49b8-1a5f-45ca-b759-c648d379b264", "User", "USER" });
 
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { "97d583c5-424b-4b58-b9e2-4cee96220c55", "666408f5-e6c4-4e6a-872b-e70fcb209eee", "Editor", "EDITOR" });
+                values: new object[] { "f29e9071-3103-4e3e-8079-fbdec9e73360", "b29c22c9-8fc7-47bd-9f4a-ec413f460bdf", "Editor", "EDITOR" });
 
             migrationBuilder.InsertData(
                 table: "Categories",
@@ -329,7 +329,7 @@ namespace StoreApp.Migrations
             migrationBuilder.InsertData(
                 table: "Products",
                 columns: new[] { "ProductId", "CategoryId", "ImageUrl", "Price", "ProductName", "ShowCase", "Summary" },
-                values: new object[] { 14, 1, "/images/14.jpg", 415m, "The Idiot", true, "" });
+                values: new object[] { 14, 1, "/images/14.jpg", 325m, "The Trial", true, "" });
 
             migrationBuilder.InsertData(
                 table: "Products",
