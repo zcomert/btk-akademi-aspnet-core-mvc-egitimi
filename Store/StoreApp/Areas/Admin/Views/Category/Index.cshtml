@@ -1,1 +1,13 @@
-<h3>Category Index</h3>
+@model IEnumerable<Category>
+
+<div class="text-center my-5">
+    <div class="display-6">Categories</div>
+</div>
+
+<ul class="list-group my-5">
+    @foreach (var cat in Model)
+    {
+        <li class="list-group-item">@cat.CategoryName</li>
+    }
+</ul>
+

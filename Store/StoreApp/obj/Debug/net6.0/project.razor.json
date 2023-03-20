@@ -18668,6 +18668,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\MVC\\Store\\StoreApp\\Areas\\Admin\\Views\\Role\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Role\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\MVC\\Store\\StoreApp\\Areas\\Admin\\Views\\Category\\Index.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Category\\Index.cshtml",
       "FileKind": "mvc"
