@@ -31,5 +31,15 @@ namespace StoreApp.Areas.Admin.Controllers
                     .ToList())
             });
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([FromForm] UserDtoForCreation userDto)
+        {
+            var result = await _manager.AuthService.CreateUser(userDto);
+            return result.Succeeded 
+                ? RedirectToAction("Index") 
+                : View();
+        }
     }
 }
