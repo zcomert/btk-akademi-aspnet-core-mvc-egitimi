@@ -11,8 +11,8 @@ using Repositories;
 namespace StoreApp.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20230319104411_startIdentity")]
-    partial class startIdentity
+    [Migration("20230320063620_identity")]
+    partial class identity
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -214,18 +214,18 @@ namespace StoreApp.Migrations
                             ProductId = 8,
                             CategoryId = 1,
                             ImageUrl = "/images/8.jpg",
-                            Price = 1145m,
-                            ProductName = "Xp-Pen",
+                            Price = 145m,
+                            ProductName = "A Doll's House",
                             ShowCase = true,
                             Summary = ""
                         },
                         new
                         {
                             ProductId = 9,
-                            CategoryId = 2,
+                            CategoryId = 1,
                             ImageUrl = "/images/9.jpg",
                             Price = 4445m,
-                            ProductName = "Galaxy FE",
+                            ProductName = "Blindness",
                             ShowCase = true,
                             Summary = ""
                         },
@@ -235,8 +235,68 @@ namespace StoreApp.Migrations
                             CategoryId = 1,
                             ImageUrl = "/images/10.jpg",
                             Price = 545m,
-                            ProductName = "Hp Mouse",
+                            ProductName = "Boston",
                             ShowCase = true,
+                            Summary = ""
+                        },
+                        new
+                        {
+                            ProductId = 11,
+                            CategoryId = 1,
+                            ImageUrl = "/images/11.jpg",
+                            Price = 385m,
+                            ProductName = "War and Piece",
+                            ShowCase = true,
+                            Summary = ""
+                        },
+                        new
+                        {
+                            ProductId = 12,
+                            CategoryId = 1,
+                            ImageUrl = "/images/12.jpg",
+                            Price = 845m,
+                            ProductName = "The Sound of the Mountain",
+                            ShowCase = true,
+                            Summary = ""
+                        },
+                        new
+                        {
+                            ProductId = 13,
+                            CategoryId = 1,
+                            ImageUrl = "/images/13.jpg",
+                            Price = 415m,
+                            ProductName = "The Idiot",
+                            ShowCase = true,
+                            Summary = ""
+                        },
+                        new
+                        {
+                            ProductId = 14,
+                            CategoryId = 1,
+                            ImageUrl = "/images/14.jpg",
+                            Price = 415m,
+                            ProductName = "The Idiot",
+                            ShowCase = true,
+                            Summary = ""
+                        },
+                        new
+                        {
+                            ProductId = 15,
+                            CategoryId = 1,
+                            ImageUrl = "/images/15.jpg",
+                            Price = 99m,
+                            ProductName = "Masnavi",
+                            ShowCase = true,
+                            Summary = ""
+                        },
+                        new
+                        {
+                            ProductId = 16,
+                            CategoryId = 1,
+                            ImageUrl = "/images/16.jpg",
+                            Price = 199m,
+                            ProductName = "The Magic Mountain",
+                            ShowCase = false,
                             Summary = ""
                         });
                 });
@@ -265,6 +325,29 @@ namespace StoreApp.Migrations
                         .HasDatabaseName("RoleNameIndex");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "24561808-ca49-4dd7-902d-14ab3f8c5356",
+                            ConcurrencyStamp = "257b7bd0-cdb3-4fc9-9f80-b2641c400ca3",
+                            Name = "User",
+                            NormalizedName = "USER"
+                        },
+                        new
+                        {
+                            Id = "97d583c5-424b-4b58-b9e2-4cee96220c55",
+                            ConcurrencyStamp = "666408f5-e6c4-4e6a-872b-e70fcb209eee",
+                            Name = "Editor",
+                            NormalizedName = "EDITOR"
+                        },
+                        new
+                        {
+                            Id = "005c7356-7e79-4133-afb1-325f337d371f",
+                            ConcurrencyStamp = "2909355f-7d0e-4514-b886-b347ce2152bf",
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
