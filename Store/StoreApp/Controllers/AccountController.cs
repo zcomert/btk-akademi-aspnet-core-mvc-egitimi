@@ -16,9 +16,12 @@ namespace StoreApp.Controllers
             _signInManager = signInManager;
         }
 
-        public IActionResult Login()
+        public IActionResult Login([FromQuery(Name ="ReturnUrl")] string ReturnUrl="/")
         {
-            return View();
+            return View(new LoginModel()
+            {
+                ReturnUrl = ReturnUrl
+            });
         }
         
         [HttpPost]

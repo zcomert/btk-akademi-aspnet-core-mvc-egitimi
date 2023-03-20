@@ -21,9 +21,15 @@ namespace Repositories.Config
                 new Product() { ProductId = 5, CategoryId = 2, ImageUrl = "/images/5.jpg", ProductName = "Deck", Price = 1_500, ShowCase = false },
                 new Product() { ProductId = 6, CategoryId = 1, ImageUrl = "/images/6.jpg", ProductName = "History", Price = 25, ShowCase = false },
                 new Product() { ProductId = 7, CategoryId = 1, ImageUrl = "/images/7.jpg", ProductName = "Hamlet", Price = 45, ShowCase = false },
-                new Product() { ProductId = 8, CategoryId = 1, ImageUrl = "/images/8.jpg", ProductName = "Xp-Pen", Price = 1145, ShowCase = true },
-                new Product() { ProductId = 9, CategoryId = 2, ImageUrl = "/images/9.jpg", ProductName = "Galaxy FE", Price = 4445, ShowCase = true },
-                new Product() { ProductId = 10, CategoryId = 1, ImageUrl = "/images/10.jpg", ProductName = "Hp Mouse", Price = 545, ShowCase = true }
+                new Product() { ProductId = 8, CategoryId = 1, ImageUrl = "/images/8.jpg", ProductName = "A Doll's House", Price = 145, ShowCase = true },
+                new Product() { ProductId = 9, CategoryId = 1, ImageUrl = "/images/9.jpg", ProductName = "Blindness", Price = 4445, ShowCase = true },
+                new Product() { ProductId = 10, CategoryId = 1, ImageUrl = "/images/10.jpg", ProductName = "Boston", Price = 545, ShowCase = true },
+                new Product() { ProductId = 11, CategoryId = 1, ImageUrl = "/images/11.jpg", ProductName = "War and Piece", Price = 385, ShowCase = true },
+                new Product() { ProductId = 12, CategoryId = 1, ImageUrl = "/images/12.jpg", ProductName = "The Sound of the Mountain", Price = 845, ShowCase = true },
+                new Product() { ProductId = 13, CategoryId = 1, ImageUrl = "/images/13.jpg", ProductName = "The Idiot", Price = 415, ShowCase = true },
+                new Product() { ProductId = 14, CategoryId = 1, ImageUrl = "/images/14.jpg", ProductName = "The Idiot", Price = 415, ShowCase = true },
+                new Product() { ProductId = 15, CategoryId = 1, ImageUrl = "/images/15.jpg", ProductName = "Masnavi", Price = 99, ShowCase = true },
+                new Product() { ProductId = 16, CategoryId = 1, ImageUrl = "/images/16.jpg", ProductName = "The Magic Mountain", Price = 199, ShowCase = false }
             );
         }
     }

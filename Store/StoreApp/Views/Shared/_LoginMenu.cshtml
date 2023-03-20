@@ -9,12 +9,19 @@
 @if (User.Identity.IsAuthenticated)
 {
     <li class="nav-item">
-        <a class="nav-link" aria-current="page" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
+        <a class="nav-link" aria-current="page" 
+        asp-area="" 
+        asp-controller="Account" 
+        asp-route-returnUrl="@Context.Request.PathAndQuery()"
+        asp-action="Logout">Logout</a>
     </li>
 }
 else
 {
     <li class="nav-item">
-        <a class="nav-link" aria-current="page" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+        <a class="nav-link" aria-current="page" asp-area="" 
+        asp-controller="Account" 
+        asp-route-returnUrl="@Context.Request.PathAndQuery()"
+        asp-action="Login">Login</a>
     </li>
 }
