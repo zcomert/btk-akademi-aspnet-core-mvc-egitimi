@@ -49,5 +49,10 @@ namespace StoreApp.Controllers
             await _signInManager.SignOutAsync();
             return Redirect(ReturnUrl);
         }
+
+        public IActionResult Register()
+        {
+            return View();
+        }
     }
 }
