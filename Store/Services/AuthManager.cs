@@ -49,5 +49,10 @@ namespace Services
         {
             return await _userManager.FindByNameAsync(userName);
         }
+
+        public Task Update(UserDtoForUpdate userDto)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
