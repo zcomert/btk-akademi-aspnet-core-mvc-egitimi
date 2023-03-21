@@ -50,6 +50,11 @@ namespace Services
             return await _userManager.FindByNameAsync(userName);
         }
 
+        public Task<UserDtoForUpdate> GetOneUserForUpdate(string userName)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task Update(UserDtoForUpdate userDto)
         {
             var user = await GetOneUser(userDto.UserName);
