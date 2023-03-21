@@ -44,7 +44,7 @@ namespace StoreApp.Areas.Admin.Controllers
 
         public async Task<IActionResult> Update([FromRoute(Name ="id")] string id)
         {
-            // var user 
+            var user = 
             return View();
         }
     }
