@@ -29,9 +29,15 @@
                 <td>-</td>
                 <td>
                     <div class="btn-group">
-                        <a class="btn btn-sm btn-warning" asp-action="Update" asp-route-id="@user.UserName">Edit</a>
-                        <a class="btn btn-sm btn-info" asp-action="ResetPassword" asp-route-id="@user.UserName" >Reset Password</a>
-                        <a class="btn btn-sm btn-danger">Delete</a>
+                        <a class="btn btn btn-warning rounded-0" asp-action="Update" asp-route-id="@user.UserName">Edit</a>
+                        <a class="btn btn btn-info rounded-0" asp-action="ResetPassword" asp-route-id="@user.UserName" >Reset Password</a>
+                        <form method="post" asp-action="DeleteOneUser">
+                            <input type="hidden" name="UserName" value="@user.UserName" />
+                            <button type="submit" class="btn btn-danger rounded-0">
+                                <i class="fa fa-solid fa-trash"></i>
+                                Delete
+                            </button>
+                        </form>
                     </div>
                 </td>
             </tr>
