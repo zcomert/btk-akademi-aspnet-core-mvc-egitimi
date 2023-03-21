@@ -63,6 +63,17 @@ namespace Services
             throw new Exception("An error occured.");
         }
 
+        public async Task<IdentityResult> ResetPassword(ResetPasswordDto model)
+        {
+            var user = await GetOneUser(model.UserName);
+            if(user is not null)
+            {
+                await _userManager.RemovePasswordAsync(user);
+                var result = await _userManager.AddPasswordAsync(user, model.Password);
+                return result;
+            }
+            throw new Exception("User could not be found.");
+        }
 
         public async Task Update(UserDtoForUpdate userDto)
         {
