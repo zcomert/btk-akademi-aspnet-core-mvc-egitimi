@@ -44,5 +44,10 @@ namespace Services
         {
             return _userManager.Users.ToList();
         }
+
+        public async Task<IdentityUser> GetOneUser(string userName)
+        {
+            return await _userManager.FindByNameAsync(userName);
+        }
     }
 }
