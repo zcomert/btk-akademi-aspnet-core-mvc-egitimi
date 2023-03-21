@@ -18608,6 +18608,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\MVC\\Store\\StoreApp\\Areas\\Admin\\Views\\User\\ResetPassword.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\User\\ResetPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\MVC\\Store\\StoreApp\\Views\\Order\\Checkout.cshtml",
       "TargetPath": "Views\\Order\\Checkout.cshtml",
       "FileKind": "mvc"
