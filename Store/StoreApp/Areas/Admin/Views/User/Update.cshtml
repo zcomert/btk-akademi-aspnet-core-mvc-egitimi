@@ -17,10 +17,6 @@
                 <input asp-for="Email" class="form-control" />
             </div>
 
-            <div class="form-group my-3">
-                <label asp-for="Password"></label>
-                <input asp-for="Password" class="form-control" />
-            </div>
 
             <div class="form-group my-3">
                 <label asp-for="PhoneNumber"></label>
@@ -44,10 +40,17 @@
                 @foreach (var item in Model.Roles)
                 {
                     <div class="form-check my-2">
-                        <input type="checkbox" name="Roles" value="@item" class="form-check-input" />
+                        <input type="checkbox" 
+                            name="Roles" 
+                            value="@item" 
+                            checked="@(Model.UserRoles.Contains(@item))"
+                            class="form-check-input" />
                         <label class="form-check-label">@item</label>
                     </div>
                 }
+            </div>
+            <div class="text-muted">
+                Please choose the roles for the user.
             </div>
         </div>
     </div>
