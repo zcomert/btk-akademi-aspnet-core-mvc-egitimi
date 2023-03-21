@@ -37,12 +37,12 @@ namespace StoreApp.Areas.Admin.Controllers
         public async Task<IActionResult> Create([FromForm] UserDtoForCreation userDto)
         {
             var result = await _manager.AuthService.CreateUser(userDto);
-            return result.Succeeded 
-                ? RedirectToAction("Index") 
+            return result.Succeeded
+                ? RedirectToAction("Index")
                 : View();
         }
 
-        public async Task<IActionResult> Update([FromRoute(Name ="id")] string id)
+        public async Task<IActionResult> Update([FromRoute(Name = "id")] string id)
         {
             var user = await _manager.AuthService.GetOneUserForUpdate(id);
             return View(user);
@@ -52,12 +52,13 @@ namespace StoreApp.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Update([FromForm] UserDtoForUpdate userDto)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 await _manager.AuthService.Update(userDto);
                 return RedirectToAction("Index");
             }
             return View();
         }
+
     }
 }
