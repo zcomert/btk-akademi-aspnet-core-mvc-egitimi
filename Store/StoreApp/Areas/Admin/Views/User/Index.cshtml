@@ -4,12 +4,12 @@
     <div class="display-6 border-bottom">Users</div>
 </div>
 
-  <div class="d-flex justify-content-end">
-        <a asp-action="Create" class="btn btn-outline-success">
-            <i class="fa fa-solid fa-plus"></i>
-            Add User
-            </a>
-    </div>
+<div class="d-flex justify-content-end">
+    <a asp-action="Create" class="btn btn-outline-success">
+        <i class="fa fa-solid fa-plus"></i>
+        Add User
+    </a>
+</div>
 
 <table>
     <thead>
@@ -29,8 +29,12 @@
                 <td>-</td>
                 <td>
                     <div class="btn-group">
-                        <a class="btn btn btn-warning rounded-0" asp-action="Update" asp-route-id="@user.UserName">Edit</a>
-                        <a class="btn btn btn-info rounded-0" asp-action="ResetPassword" asp-route-id="@user.UserName" >Reset Password</a>
+                        <a class="btn btn btn-warning rounded-0" asp-action="Update" asp-route-id="@user.UserName">
+                            <i class="fa fa-solid fa-edit"></i>
+                            Edit</a>
+                        <a class="btn btn btn-info rounded-0" asp-action="ResetPassword" asp-route-id="@user.UserName">
+                            <i class="fa fa-solid fa-edit"></i>
+                            Reset Password</a>
                         <form method="post" asp-action="DeleteOneUser">
                             <input type="hidden" name="UserName" value="@user.UserName" />
                             <button type="submit" class="btn btn-danger rounded-0">
