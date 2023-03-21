@@ -63,9 +63,16 @@ namespace Services
             throw new Exception("An error occured.");
         }
 
-        public Task<bool> ResetPassword(ResetPasswordDto model)
+        public async Task<bool> ResetPassword(ResetPasswordDto model)
         {
-            throw new NotImplementedException();
+            var user = await GetOneUser(model.UserName);
+            if (user is not null)
+            {
+                await _userManager.RemovePasswordAsync(user);
+                var result = await _userManager.AddPasswordAsync(user, model.Password);
+                return result.Succeeded;
+            }
+            return false;
         }
 
         public async Task Update(UserDtoForUpdate userDto)
