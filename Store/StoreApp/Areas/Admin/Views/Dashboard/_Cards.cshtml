@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-md-3">
+        <div class="card bg-primary text-white" style="width: 18rem;">
+            <div class="card-body text-center">
+                <h6 class="card-subtitle mb-2">Number of</h6>
+                <h5 class="card-title">Products</h5>
+                <h3 class="text-center display-3">
+                    @await Component.InvokeAsync("ProductSummary")
+                </h3>
+                <a asp-controller="Product" asp-action="Index" class="card-link text-white">Products</a>
+                <a asp-controller="Product" asp-action="Create" class="card-link text-white">New Product</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card bg-danger text-white" style="width: 18rem;">
+            <div class="card-body text-center">
+                <h6 class="card-subtitle mb-2">Number of</h6>
+                <h5 class="card-title">Categories</h5>
+                <h3 class="text-center display-3">
+                    @await Component.InvokeAsync("CategorySummary")
+                </h3>
+                <a asp-controller="Category" asp-action="Index" class="card-link text-white">Categories</a>
+                <a asp-controller="Category" asp-action="Create" class="card-link text-white">New Category</a>
+            </div>
+        </div>
+    </div>
+</div>

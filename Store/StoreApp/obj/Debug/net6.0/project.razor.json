@@ -15128,6 +15128,23 @@
         }
       },
       {
+        "HashCode": 487287847,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CategorySummaryViewComponentTagHelper",
+        "AssemblyName": "StoreApp",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:category-summary"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CategorySummaryViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CategorySummary"
+        }
+      },
+      {
         "HashCode": 1703974433,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -18788,6 +18805,11 @@
     {
       "FilePath": "e:\\MVC\\Store\\StoreApp\\Views\\Account\\Register.cshtml",
       "TargetPath": "Views\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\MVC\\Store\\StoreApp\\Areas\\Admin\\Views\\Dashboard\\_Cards.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Dashboard\\_Cards.cshtml",
       "FileKind": "mvc"
     },
     {
