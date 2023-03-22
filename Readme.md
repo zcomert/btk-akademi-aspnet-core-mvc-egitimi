@@ -202,6 +202,13 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
       - Application Cookie
       - UserRole Tag Helper
       - Özet
+
+17. API
+      - Giriş
+      - Web API 
+      - Configuration
+      - Presentation Layer
+      - Özet
    
 ## Eğitime Kimler Katılmalı
 
