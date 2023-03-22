@@ -185,6 +185,23 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
       - Pagination
       - PageLinkTagHelper
       - Özet
+
+16. Identity
+      - Giriş
+      - Identity
+      - Default Admin User
+      - Login
+      - Login Menu
+      - Registration
+      - AuthService
+      - CreateUser
+      - Update User
+      - Reset Password
+      - Delete User
+      - Authorize (Preserving endpoints)
+      - Application Cookie
+      - UserRole Tag Helper
+      - Özet
    
 ## Eğitime Kimler Katılmalı
 
