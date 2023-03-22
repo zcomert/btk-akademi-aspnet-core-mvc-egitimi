@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nxo83j84UgNqzWqtvzvVdZGjiSRMt52whw5zXZtri8k=",
+  "Hash": "n5fbUA+/X85HOm6YR/IIEkbusGZ+WMXO2SLO4ijZifM=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -457,6 +457,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\beloved.jpg"
+    },
+    {
+      "Identity": "E:\\MVC\\Store\\StoreApp\\wwwroot\\images\\berlin-alexanderplatz.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/berlin-alexanderplatz.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\berlin-alexanderplatz.jpg"
     },
     {
       "Identity": "E:\\MVC\\Store\\StoreApp\\wwwroot\\images\\controller.jpg",
