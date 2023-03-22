@@ -1,4 +1,5 @@
-@model IEnumerable<Product>
+@model ProductListViewModel
+
 <div class="text-center my-5 border-bottom">
     <div class="display-6">Products</div>
 </div>
@@ -32,7 +33,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (Product prd in Model)
+                @foreach (Product prd in Model.Products)
                 {
                     <tr>
                         <td>@prd.ProductId</td>
@@ -68,6 +69,12 @@
                 }
             </tbody>
         </table>
+
+        <div class="text-center">
+            <div page-model="@Model?.Pagination" page-action="Index" page-classes-enabled="true" page-class="btn"
+                page-class-normal="btn-outline-dark" page-class-selected="btn-secondary" class="btn-group">
+            </div>
+        </div>
     </div>
 </div>
 
