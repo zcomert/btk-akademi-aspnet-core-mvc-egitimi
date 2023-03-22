@@ -15162,6 +15162,23 @@
         }
       },
       {
+        "HashCode": -501668213,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__UserSummaryViewComponentTagHelper",
+        "AssemblyName": "StoreApp",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:user-summary"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__UserSummaryViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "UserSummary"
+        }
+      },
+      {
         "HashCode": 1703974433,
         "Kind": "Components.Bind",
         "Name": "Bind",

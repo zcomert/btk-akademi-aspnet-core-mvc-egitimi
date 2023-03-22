@@ -28,6 +28,20 @@
     </div>
 
     <div class="col-md-3">
+        <div class="card bg-info text-white" style="width: 18rem;">
+            <div class="card-body text-center">
+                <h6 class="card-subtitle mb-2">Number of</h6>
+                <h5 class="card-title">Users</h5>
+                <h3 class="text-center display-3">
+                    @await Component.InvokeAsync("UserSummary")
+                </h3>
+                <a asp-controller="User" asp-action="Index" class="card-link text-white">Users</a>
+                <a asp-controller="User" asp-action="Create" class="card-link text-white">New User</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
         <div class="card bg-warning text-white" style="width: 18rem;">
             <div class="card-body text-center">
                 <h6 class="card-subtitle mb-2">Number of</h6>
