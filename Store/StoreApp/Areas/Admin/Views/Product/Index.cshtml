@@ -19,6 +19,7 @@
                 <th>Id</th>
                 <th>Image Url</th>
                 <th>Product Name</th>
+                <th>Showcase</th>
                 <th>Price</th>
                 <th>Operations</th>
             </tr>
@@ -32,6 +33,11 @@
                         <img class="border border-light rounded" src="@prd?.ImageUrl" alt="@prd?.ProductName" width="50" />
                     </td>
                     <td>@prd.ProductName</td>
+                    <td>
+                        <div class="form-check form-switch">
+                            <input type="checkbox" class="form-check-input" checked="@prd.ShowCase" disabled />
+                        </div>
+                    </td>
                     <td>@prd.Price.ToString("c")</td>
                     <td>
                         <div class="btn-group">
@@ -42,11 +48,11 @@
                             <a data-toggle="tooltip" data-placement="top" title="Delete" class="btn btn-danger"
                             asp-action="Delete" asp-route-id="@prd.ProductId">
                                 <i class="fa fa-trash"></i>
-                                </a>
+                            </a>
                             <a data-toggle="tooltip" data-placement="top" title="Web" class="btn btn-info" target="_blank"
                             asp-area="" asp-controller="Product" asp-action="Get" asp-route-id="@prd.ProductId">
                                 <i class="fa fa-search"></i>
-                                </a>
+                            </a>
                         </div>
                     </td>
                 </tr>
