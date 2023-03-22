@@ -1,10 +1,10 @@
 @model ProductDtoForUpdate
 
 <div class="text-center">
-    <div class="display-6">Create</div>
+    <div class="display-6">Update</div>
 </div>
 
-<form method="post" asp-action="Update" enctype="multipart/form-data" >
+<form method="post" asp-action="Update" enctype="multipart/form-data">
 
     <div class="text-danger" asp-validation-summary="All"></div>
 
@@ -29,6 +29,11 @@
     <div class="form-group my-3">
         <label asp-for="Price"></label>
         <input asp-for="Price" class="form-control" />
+    </div>
+
+    <div class="form-check form-switch">
+        <input asp-for="Showcase" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault">Showcase</label>
     </div>
 
     <div class="from-group my-3">
