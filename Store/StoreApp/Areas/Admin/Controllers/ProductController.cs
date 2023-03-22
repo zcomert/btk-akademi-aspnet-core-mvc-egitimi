@@ -38,6 +38,7 @@ namespace StoreApp.Areas.Admin.Controllers
 
         public IActionResult Create()
         {
+            TempData["info"] = "Please fill the form.";
             ViewBag.Categories = GetCategoriesSelectList();
             return View();
         }
@@ -58,6 +59,7 @@ namespace StoreApp.Areas.Admin.Controllers
                 }
                 productDto.ImageUrl = String.Concat("/images/",file.FileName);
                 _manager.ProductService.CreateProduct(productDto);
+                TempData["success"] = $"{productDto.ProductName} has been created.";
                 return RedirectToAction("Index");
             }
             return View();
