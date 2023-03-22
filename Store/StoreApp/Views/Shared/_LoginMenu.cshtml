@@ -1,7 +1,9 @@
 @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
 {
     <li class="nav-item">
-        <a class="nav-link" aria-current="page" asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Admin</a>
+        <a class="nav-link" aria-current="page" asp-area="Admin" asp-controller="Dashboard" asp-action="Index">
+            <i class="fa-solid fa-gear"></i>
+            Admin</a>
     </li>
 }
 
@@ -10,13 +12,17 @@
 {
     <li class="nav-item">
         <a class="nav-link" aria-current="page" asp-area="" asp-controller="Account"
-        asp-route-returnUrl="@Context.Request.PathAndQuery()" asp-action="Logout">Logout</a>
+        asp-route-returnUrl="@Context.Request.PathAndQuery()" asp-action="Logout">
+         <i class="fa-solid fa-right-from-bracket"></i>
+        Logout</a>
     </li>
 }
 else
 {
     <li class="nav-item">
         <a class="nav-link" aria-current="page" asp-area="" asp-controller="Account"
-        asp-route-returnUrl="@Context.Request.PathAndQuery()" asp-action="Login">Login</a>
+        asp-route-returnUrl="@Context.Request.PathAndQuery()" asp-action="Login">
+        <i class="fa-solid fa-right-to-bracket"></i>
+        Login</a>
     </li>
 }
