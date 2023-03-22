@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AjWH4rDUr8AeCUv5aen03EiS94OsZ2Q0laQ/T5Cjxh4=",
+  "Hash": "UJXSfQCSOdHKRu9+twdKGEQPr5wf1g7K9egnJiWOm0o=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -474,6 +474,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\default.jpg"
+    },
+    {
+      "Identity": "E:\\MVC\\Store\\StoreApp\\wwwroot\\images\\hp-computer.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/hp-computer.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hp-computer.jpg"
     },
     {
       "Identity": "E:\\MVC\\Store\\StoreApp\\wwwroot\\images\\laptop-lenovo.jpg",

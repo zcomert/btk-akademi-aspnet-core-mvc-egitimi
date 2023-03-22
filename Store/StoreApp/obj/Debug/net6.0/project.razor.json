@@ -15111,7 +15111,7 @@
         }
       },
       {
-        "HashCode": -2115576032,
+        "HashCode": -197655975,
         "Kind": "MVC.ViewComponent",
         "Name": "__Generated__ShowcaseViewComponentTagHelper",
         "AssemblyName": "StoreApp",
@@ -15119,6 +15119,16 @@
         "TagMatchingRules": [
           {
             "TagName": "vc:showcase"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "page",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "page"
+            }
           }
         ],
         "Metadata": {
@@ -18789,6 +18799,11 @@
     {
       "FilePath": "e:\\MVC\\Store\\StoreApp\\Areas\\Admin\\Views\\Order\\Index.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Order\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\MVC\\Store\\StoreApp\\Views\\Shared\\Components\\Showcase\\List.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Showcase\\List.cshtml",
       "FileKind": "mvc"
     },
     {
