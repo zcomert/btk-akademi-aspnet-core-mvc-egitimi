@@ -12775,6 +12775,39 @@
         }
       },
       {
+        "HashCode": -1416574066,
+        "Kind": "ITagHelper",
+        "Name": "StoreApp.Infrastructure.TagHelpers.UserRoleTagHelper",
+        "AssemblyName": "StoreApp",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "td",
+            "Attributes": [
+              {
+                "Name": "user-role"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "user-name",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "UserName"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "StoreApp.Infrastructure.TagHelpers.UserRoleTagHelper",
+          "Common.TypeNamespace": "StoreApp.Infrastructure.TagHelpers",
+          "Common.TypeNameIdentifier": "UserRoleTagHelper"
+        }
+      },
+      {
         "HashCode": 1314168326,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
