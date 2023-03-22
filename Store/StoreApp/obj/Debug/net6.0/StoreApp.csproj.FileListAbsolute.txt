@@ -64,3 +64,6 @@ E:\MVC\Store\StoreApp\bin\Debug\net6.0\Services.pdb
 E:\MVC\Store\StoreApp\bin\Debug\net6.0\AutoMapper.dll
 E:\MVC\Store\StoreApp\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 E:\MVC\Store\StoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\MVC\Store\StoreApp\bin\Debug\net6.0\Presentation.dll
+E:\MVC\Store\StoreApp\bin\Debug\net6.0\Presentation.pdb
+E:\MVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.MvcApplicationPartsAssemblyInfo.cs
