@@ -1,5 +1,6 @@
 using Entities.Dtos;
 using Entities.Models;
+using Entities.RequestParameters;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -18,9 +19,9 @@ namespace StoreApp.Areas.Admin.Controllers
             _manager = manager;
         }
 
-        public IActionResult Index()
+        public IActionResult Index([FromQuery] ProductRequestParameters p)
         {
-            var model = _manager.ProductService.GetAllProducts(false);
+            var model = _manager.ProductService.GetAllProductsWithDetails(p);
             return View(model);
         }
 

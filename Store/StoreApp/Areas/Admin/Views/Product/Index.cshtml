@@ -10,56 +10,69 @@
             Create
         </a>
     </div>
-
-
-
-    <table class="table table-striped table-hover">
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Image Url</th>
-                <th>Product Name</th>
-                <th>Showcase</th>
-                <th>Price</th>
-                <th>Operations</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (Product prd in Model)
-            {
-                <tr>
-                    <td>@prd.ProductId</td>
-                    <td>
-                        <img class="border border-light rounded" src="@prd?.ImageUrl" alt="@prd?.ProductName" width="50" />
-                    </td>
-                    <td>@prd.ProductName</td>
-                    <td>
-                        <div class="form-check form-switch">
-                            <input type="checkbox" class="form-check-input" checked="@prd.ShowCase" disabled />
-                        </div>
-                    </td>
-                    <td>@prd.Price.ToString("c")</td>
-                    <td>
-                        <div class="btn-group">
-                            <a data-toggle="tooltip" data-placement="top" title="Edit" class="btn btn-warning"
-                            asp-action="Update" asp-route-id="@prd.ProductId">
-                                <i class="fa fa-edit"></i>
-                            </a>
-                            <a data-toggle="tooltip" data-placement="top" title="Delete" class="btn btn-danger"
-                            asp-action="Delete" asp-route-id="@prd.ProductId">
-                                <i class="fa fa-trash"></i>
-                            </a>
-                            <a data-toggle="tooltip" data-placement="top" title="Web" class="btn btn-info" target="_blank"
-                            asp-area="" asp-controller="Product" asp-action="Get" asp-route-id="@prd.ProductId">
-                                <i class="fa fa-search"></i>
-                            </a>
-                        </div>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
 </div>
+
+
+<div class="row">
+    <div class="col-md-3">
+        @await Component.InvokeAsync("CategoriesMenu")
+        @await Component.InvokeAsync("ProductFilterMenu")
+        <div products="" number="3"></div>
+    </div>
+    <div class="col-md-9">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Image Url</th>
+                    <th>Product Name</th>
+                    <th>Showcase</th>
+                    <th>Price</th>
+                    <th>Operations</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Product prd in Model)
+                {
+                    <tr>
+                        <td>@prd.ProductId</td>
+                        <td>
+                            <img class="border border-light rounded" src="@prd?.ImageUrl" alt="@prd?.ProductName"
+                                width="50" />
+                        </td>
+                        <td>@prd.ProductName</td>
+                        <td>
+                            <div class="form-check form-switch">
+                                <input type="checkbox" class="form-check-input" checked="@prd.ShowCase" disabled />
+                            </div>
+                        </td>
+                        <td>@prd.Price.ToString("c")</td>
+                        <td>
+                            <div class="btn-group">
+                                <a data-toggle="tooltip" data-placement="top" title="Edit" class="btn btn-warning"
+                                asp-action="Update" asp-route-id="@prd.ProductId">
+                                    <i class="fa fa-edit"></i>
+                                </a>
+                                <a data-toggle="tooltip" data-placement="top" title="Delete" class="btn btn-danger"
+                                asp-action="Delete" asp-route-id="@prd.ProductId">
+                                    <i class="fa fa-trash"></i>
+                                </a>
+                                <a data-toggle="tooltip" data-placement="top" title="Web" class="btn btn-info"
+                                    target="_blank" asp-area="" asp-controller="Product" asp-action="Get"
+                                asp-route-id="@prd.ProductId">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
 
 @section Scripts
     {
