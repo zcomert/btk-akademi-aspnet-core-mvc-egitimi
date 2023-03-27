@@ -52,7 +52,7 @@ namespace StoreApp.Infrastructure.Extensions
 
         public static void ConfigureRepositoryRegistration(this IServiceCollection services)
         {
-            services.AddScoped<IRepositoryManager, RepositoryManger>();
+            services.AddScoped<IRepositoryManager, RepositoryManager>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();

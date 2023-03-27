@@ -62,7 +62,7 @@ namespace StoreApp.Infrastructure.Extensions
                 var result = await userManager.CreateAsync(user,adminPassword);
                 
                 if(!result.Succeeded)
-                    throw new Exception("Admin user could not created.");
+                    throw new Exception("Admin user could not been created.");
 
                 var roleResult = await userManager.AddToRolesAsync(user,
                     roleManager
