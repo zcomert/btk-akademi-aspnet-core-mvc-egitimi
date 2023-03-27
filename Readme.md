@@ -209,6 +209,17 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
       - Configuration
       - Presentation Layer
       - Özet
+
+18. Admin Panel
+      - Giriş
+      - Login Menu
+      - Tooltip
+      - Dashboard
+      - Showcase
+      - Notification
+      - ViewData
+      - MSSQL Yapılandırması
+      - Özet
    
 ## Eğitime Kimler Katılmalı
 
