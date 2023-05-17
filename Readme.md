@@ -246,7 +246,7 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
 # Kaynaklar
 
 1. [Virtual Campus Medium](https://medium.com/@myvirtualcampus)
-2. [Virtual Campus Youtube](youtube.com/@virtual.campus)
+2. [Virtual Campus Youtube](https://www.youtube.com/@virtual.campus)
 3. [dotnet Youtube](https://www.youtube.com/@dotnet)
 4. [Visual Studio Youtube](https://www.youtube.com/@visualstudio)
 5. [Learn .NET](https://dotnet.microsoft.com/en-us/learn)
