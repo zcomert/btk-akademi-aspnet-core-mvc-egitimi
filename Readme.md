@@ -243,6 +243,19 @@ BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi ha
 - MVVM desenini öğrenir
 - Dinamik web uygulamaları tasarlayabilir ve kodlayabilir
 
+## Repodan Faydalanmak 
+Repoyu bilgisayarınıza indirmek için git kullanabilirsiniz. 
+
+> git clone https://github.com/zcomert/BTK-Akademi-ASPNET-Core-MVC-Egitimi
+
+Her bölüm kendi içerisinde organize edilerek git üzerinde farklı branch kullanılarak tanımlanmıştır. Bu çerçevede depoda yer alan branch görmek üzere aşağıdaki komutu kullanabilirsiniz. 
+
+> git branch -a 
+
+Bir branch yapısından bir diğerine geçmek üzere aşağıdaki komut setini kullanabilirsiniz.
+
+> git checkout <branch_adi>
+
 # Kaynaklar
 
 1. [Virtual Campus Medium](https://medium.com/@myvirtualcampus)
