@@ -1,5 +1,10 @@
 # BTK Akademi ASP.NET Core MVC Eğitimi
 
+<center>
+![BTK Akademi](https://assets-btkakademi-gov-tr.akamaized.net/api/service/v1/public/51/assets/logo.png)
+</center>
+
+
 ## .NET Core
 
 Orijinal ASP.NET 2002 yılında duyurulmuştur. O süreçten günümüze pek çok değişim ve evrim ile ASP.NET gelişmeye ve büyümeye devam etmiştir.
@@ -10,9 +15,9 @@ Orijinal ASP.NET 2002 yılında duyurulmuştur. O süreçten günümüze pek ço
 
 ![.NET Stack](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*OuupQInFrqEPEyp5nP4ZsA.png)
 
-<div align="center">
+<center>
 Şekil 1. Modern .NET Stack
-</div>
+</center>
 
 ## MVC
 
@@ -32,11 +37,15 @@ MVC temelde;
 
 # ASP.NET Core MVC Eğitimi
 
-<div align="center">
+<center>
 
-![BTK Akademi](https://assets-btkakademi-gov-tr.akamaized.net/api/service/v1/public/51/assets/logo.png?ts=1638523943546)
 
-</div>
+
+<a href='https://www.btkakademi.gov.tr/portal/course/asp-net-core-mvc-25318'>
+<img src='https://assets-btkakademi-gov-tr.akamaized.net/api/gallery/51/ed03a51d-e138-443a-93bf-81da204cebb4/283_0x400.jpg?t=1683888403105' width="250px" />
+</a>
+
+</center>
 
 BTK Akademi işbirliği çerçevesinde sizler için ASP.NET Core MVC Eğitimi hazırladık. Bu eğitimi alarak MVC yazılım mimari modelinin uygulanmasını öğrenebilir ve .NET çerçevesinin modern web uygulamaları geliştirmek için nasıl kullanıldığını öğrenebilirsiniz.
 
