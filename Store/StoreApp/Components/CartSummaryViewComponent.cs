@@ -6,6 +6,7 @@ namespace StoreApp.Components
     public class CartSummaryViewComponent : ViewComponent
     {
         private readonly Cart _cart;
+        private int productQuantity { get; set; }
         public CartSummaryViewComponent(Cart cartService)
         {
             _cart = cartService;
@@ -13,7 +14,12 @@ namespace StoreApp.Components
 
         public string Invoke()
         {
-            return _cart.Lines.Count().ToString();
+            foreach (var line in _cart.Lines)
+            {
+                productQuantity += line.Quantity;
+            }
+
+            return productQuantity.ToString();
         }
     }
 }
